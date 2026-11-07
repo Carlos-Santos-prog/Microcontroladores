@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 118.11 71.755) (xy 125.73 71.755)
+			(xy 125.73 46.99) (xy 133.35 46.99)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +17,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 71.12) (xy 181.61 71.12)
+			(xy 181.61 46.355) (xy 189.23 46.355)
 		)
 		(stroke
 			(width 0)
@@ -27,7 +27,57 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 116.84) (xy 125.73 116.84)
+			(xy 133.35 94.615) (xy 118.11 94.615)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f26a9c-4fec-4e66-80c5-7ce4a76327f1")
+	)
+	(wire
+		(pts
+			(xy 181.61 99.695) (xy 189.23 99.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48f89dfe-6af2-440c-83e2-5330e4f4ce4e")
+	)
+	(wire
+		(pts
+			(xy 133.35 90.805) (xy 118.11 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b5959e2-deda-41f3-97bf-28272e005ca8")
+	)
+	(wire
+		(pts
+			(xy 127 104.775) (xy 133.35 104.775)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54e344a3-43f7-4be0-83aa-7596146086fe")
+	)
+	(wire
+		(pts
+			(xy 127 102.235) (xy 133.35 102.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5782e35d-4412-42e5-9a51-23c72ac05b8c")
+	)
+	(wire
+		(pts
+			(xy 127 75.565) (xy 133.35 75.565)
 		)
 		(stroke
 			(width 0)
@@ -37,7 +87,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 114.3) (xy 125.73 114.3)
+			(xy 181.61 73.025) (xy 189.23 73.025)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63491823-dcd5-4185-a886-203a1c0316f1")
+	)
+	(wire
+		(pts
+			(xy 127 73.025) (xy 133.35 73.025)
 		)
 		(stroke
 			(width 0)
@@ -47,7 +107,37 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 119.38) (xy 125.73 119.38)
+			(xy 181.61 59.055) (xy 189.23 59.055)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e999f6-62ce-4af3-b115-67423ae9c0ee")
+	)
+	(wire
+		(pts
+			(xy 95.25 74.295) (xy 99.06 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f6a49b6-50f3-42d3-a0ec-84d20cff01e9")
+	)
+	(wire
+		(pts
+			(xy 181.61 113.665) (xy 189.23 113.665)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87ca5319-68fd-4483-aef0-f5ee296087e5")
+	)
+	(wire
+		(pts
+			(xy 127 78.105) (xy 133.35 78.105)
 		)
 		(stroke
 			(width 0)
@@ -57,7 +147,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 109.22) (xy 125.73 109.22)
+			(xy 127 67.945) (xy 133.35 67.945)
 		)
 		(stroke
 			(width 0)
@@ -67,7 +157,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 121.92) (xy 125.73 121.92)
+			(xy 127 109.855) (xy 133.35 109.855)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a941b9b4-bda5-475f-9ee9-1771896b8d3e")
+	)
+	(wire
+		(pts
+			(xy 127 80.645) (xy 133.35 80.645)
 		)
 		(stroke
 			(width 0)
@@ -77,7 +177,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 68.58) (xy 173.99 68.58)
+			(xy 189.23 43.815) (xy 181.61 43.815)
 		)
 		(stroke
 			(width 0)
@@ -87,7 +187,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 106.68) (xy 125.73 106.68)
+			(xy 127 65.405) (xy 133.35 65.405)
 		)
 		(stroke
 			(width 0)
@@ -97,7 +197,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 104.14) (xy 125.73 104.14)
+			(xy 95.25 70.485) (xy 99.06 70.485)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e64c5e3c-49b5-4641-a9aa-131ed4285d9f")
+	)
+	(wire
+		(pts
+			(xy 127 62.865) (xy 133.35 62.865)
 		)
 		(stroke
 			(width 0)
@@ -107,7 +217,27 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 69.215) (xy 125.73 69.215)
+			(xy 127 107.315) (xy 133.35 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec92b359-8035-461f-a01f-71382397664e")
+	)
+	(wire
+		(pts
+			(xy 181.61 86.995) (xy 189.23 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed303557-3f5a-4d52-9192-306403830d1a")
+	)
+	(wire
+		(pts
+			(xy 125.73 44.45) (xy 133.35 44.45)
 		)
 		(stroke
 			(width 0)
@@ -117,7 +247,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 111.76) (xy 125.73 111.76)
+			(xy 127 70.485) (xy 133.35 70.485)
 		)
 		(stroke
 			(width 0)
@@ -125,9 +255,49 @@
 		)
 		(uuid "f8baff8b-f490-4a4b-82f0-bfd4a263f3da")
 	)
+	(label "SCL"
+		(at 95.25 74.295 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0c713059-b793-482d-9514-db3d1c5b2327")
+	)
+	(label "SDA"
+		(at 118.11 90.805 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14ab116c-4bda-4821-b4cf-53c450dcd388")
+	)
+	(label "SDA"
+		(at 95.25 70.485 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9e28ffc1-c444-4c28-98f0-916630e531cb")
+	)
+	(label "SCL"
+		(at 118.11 94.615 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd59167f-dc3d-438d-ae04-4a7e6bf05e3b")
+	)
 	(sheet
-		(at 125.73 64.77)
-		(size 48.26 60.96)
+		(at 133.35 40.005)
+		(size 48.26 84.455)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -142,7 +312,7 @@
 		)
 		(uuid "2a9a73de-bc9d-49ad-b06b-84204940ff5e")
 		(property "Sheetname" "ESP32_S3"
-			(at 125.73 62.1934 0)
+			(at 133.35 37.4284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -153,7 +323,7 @@
 			)
 		)
 		(property "Sheetfile" "ESP32_S3.kicad_sch"
-			(at 125.73 126.3146 0)
+			(at 133.35 125.0446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -164,7 +334,7 @@
 			)
 		)
 		(pin "D+" input
-			(at 125.73 71.755 180)
+			(at 133.35 46.99 180)
 			(uuid "cbf0d9f5-48a2-40da-af59-6654a9246959")
 			(effects
 				(font
@@ -174,7 +344,7 @@
 			)
 		)
 		(pin "D-" input
-			(at 125.73 69.215 180)
+			(at 133.35 44.45 180)
 			(uuid "003dedc8-78f2-4264-a2b6-087a7fe9a7ae")
 			(effects
 				(font
@@ -184,17 +354,17 @@
 			)
 		)
 		(pin "GPIO1" input
-			(at 125.73 76.2 180)
+			(at 181.61 86.995 0)
 			(uuid "ca4cda17-a9ca-457f-99d6-55db8c165838")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "GPIO2" input
-			(at 125.73 78.74 180)
+			(at 143.51 124.46 270)
 			(uuid "8880da18-f075-44ac-a821-2bef44be77c4")
 			(effects
 				(font
@@ -204,7 +374,7 @@
 			)
 		)
 		(pin "GPIO3" input
-			(at 125.73 81.28 180)
+			(at 140.97 124.46 270)
 			(uuid "ba27cf1a-bf95-47c6-ad5f-d2e875c4a0dc")
 			(effects
 				(font
@@ -214,7 +384,7 @@
 			)
 		)
 		(pin "GPIO4" input
-			(at 125.73 83.82 180)
+			(at 133.35 102.235 180)
 			(uuid "ecd4c159-1817-4154-a62c-cec3f2158c58")
 			(effects
 				(font
@@ -224,7 +394,7 @@
 			)
 		)
 		(pin "GPIO5" input
-			(at 125.73 86.36 180)
+			(at 133.35 104.775 180)
 			(uuid "74a32e97-7fec-4a89-b202-869150639414")
 			(effects
 				(font
@@ -234,7 +404,7 @@
 			)
 		)
 		(pin "GPIO6" input
-			(at 125.73 88.9 180)
+			(at 133.35 107.315 180)
 			(uuid "20f9d452-e558-4542-a8ea-f206d8fa76ef")
 			(effects
 				(font
@@ -244,7 +414,7 @@
 			)
 		)
 		(pin "GPIO7" input
-			(at 125.73 91.44 180)
+			(at 133.35 109.855 180)
 			(uuid "f246fd4f-9f46-4862-9896-547771763fbc")
 			(effects
 				(font
@@ -254,7 +424,7 @@
 			)
 		)
 		(pin "GPIO8" input
-			(at 125.73 93.98 180)
+			(at 147.32 124.46 270)
 			(uuid "3a7f452e-5bcb-4bd2-b439-8e397e07dfbf")
 			(effects
 				(font
@@ -264,17 +434,17 @@
 			)
 		)
 		(pin "GPIO9" input
-			(at 125.73 96.52 180)
+			(at 181.61 113.665 0)
 			(uuid "363762a0-2325-417a-be08-f0148c2840b3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "GPIO10" input
-			(at 125.73 104.14 180)
+			(at 133.35 62.865 180)
 			(uuid "69e89da3-295b-44a4-8866-7493a84bd6d0")
 			(effects
 				(font
@@ -284,7 +454,7 @@
 			)
 		)
 		(pin "GPIO11" input
-			(at 125.73 106.68 180)
+			(at 133.35 65.405 180)
 			(uuid "5c2ec9cf-7e05-4a29-a9ee-c30254f4347c")
 			(effects
 				(font
@@ -294,7 +464,7 @@
 			)
 		)
 		(pin "GPIO12" input
-			(at 125.73 109.22 180)
+			(at 133.35 67.945 180)
 			(uuid "97171ebf-1570-4344-b054-db6f9773542b")
 			(effects
 				(font
@@ -304,7 +474,7 @@
 			)
 		)
 		(pin "GPIO13" input
-			(at 125.73 111.76 180)
+			(at 133.35 70.485 180)
 			(uuid "3eee0a82-a3c4-4f4c-8d36-9eb3118ba573")
 			(effects
 				(font
@@ -314,7 +484,7 @@
 			)
 		)
 		(pin "GPIO14" input
-			(at 148.59 125.73 270)
+			(at 157.48 124.46 270)
 			(uuid "92358212-5fb2-4274-991f-c8ca4f527b94")
 			(effects
 				(font
@@ -324,7 +494,7 @@
 			)
 		)
 		(pin "GPIO15" input
-			(at 125.73 114.3 180)
+			(at 133.35 73.025 180)
 			(uuid "17d769ba-aec0-43b9-a5b5-762023a80b2e")
 			(effects
 				(font
@@ -334,7 +504,7 @@
 			)
 		)
 		(pin "GPIO16" input
-			(at 125.73 116.84 180)
+			(at 133.35 75.565 180)
 			(uuid "e6a4c7c0-b60d-469e-902f-700b84f39696")
 			(effects
 				(font
@@ -344,7 +514,7 @@
 			)
 		)
 		(pin "GPIO17" input
-			(at 125.73 119.38 180)
+			(at 133.35 78.105 180)
 			(uuid "a263760d-3046-438f-8822-6c8715b5e29e")
 			(effects
 				(font
@@ -354,7 +524,7 @@
 			)
 		)
 		(pin "GPIO18" input
-			(at 125.73 121.92 180)
+			(at 133.35 80.645 180)
 			(uuid "a68c161b-4a7e-43db-b939-340210ef3524")
 			(effects
 				(font
@@ -364,17 +534,17 @@
 			)
 		)
 		(pin "GPIO21" input
-			(at 151.13 125.73 270)
+			(at 181.61 99.695 0)
 			(uuid "6025c4a2-8a36-44e1-94ae-f1e816c500ff")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "GPIO35" input
-			(at 153.67 125.73 270)
+			(at 133.35 90.805 180)
 			(uuid "6bd0942e-8b55-4cc5-93dc-fcf3263288dd")
 			(effects
 				(font
@@ -384,7 +554,7 @@
 			)
 		)
 		(pin "GPIO36" input
-			(at 156.21 125.73 270)
+			(at 133.35 94.615 180)
 			(uuid "30a68f34-702c-42a9-b9a6-6b0d1b5a7caa")
 			(effects
 				(font
@@ -394,27 +564,27 @@
 			)
 		)
 		(pin "GPIO37" input
-			(at 144.78 125.73 270)
+			(at 181.61 59.055 0)
 			(uuid "cf71fb20-eb0d-4da8-8bd8-80fe16e57604")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "GPIO38" input
-			(at 139.7 125.73 270)
+			(at 181.61 73.025 0)
 			(uuid "56ef7724-6064-4d89-a596-fd2c2e00fa77")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "GPIO39" input
-			(at 142.24 125.73 270)
+			(at 153.67 124.46 270)
 			(uuid "ea9a4497-d0b4-4285-8812-968aca467b22")
 			(effects
 				(font
@@ -424,7 +594,7 @@
 			)
 		)
 		(pin "GPIO40" input
-			(at 158.75 125.73 270)
+			(at 161.29 124.46 270)
 			(uuid "f8dc2d67-b2ac-4d63-88e8-b88ac98c89e8")
 			(effects
 				(font
@@ -434,7 +604,7 @@
 			)
 		)
 		(pin "GPIO41" input
-			(at 161.29 125.73 270)
+			(at 163.83 124.46 270)
 			(uuid "8f547ec8-52cf-4e8d-8cc0-864c8fac1343")
 			(effects
 				(font
@@ -444,7 +614,7 @@
 			)
 		)
 		(pin "GPIO42" input
-			(at 163.83 125.73 270)
+			(at 166.37 124.46 270)
 			(uuid "9b96042f-bbbb-419b-a8e2-4ba0f7c5fdee")
 			(effects
 				(font
@@ -454,7 +624,7 @@
 			)
 		)
 		(pin "GPIO43" input
-			(at 166.37 125.73 270)
+			(at 168.91 124.46 270)
 			(uuid "7ab40332-face-45d8-8e3c-90e9e15d393d")
 			(effects
 				(font
@@ -464,7 +634,7 @@
 			)
 		)
 		(pin "GPIO44" input
-			(at 168.91 125.73 270)
+			(at 171.45 124.46 270)
 			(uuid "c1d993ed-6a21-4ec6-ba92-34a6140a6d07")
 			(effects
 				(font
@@ -474,7 +644,7 @@
 			)
 		)
 		(pin "GPIO45" input
-			(at 171.45 125.73 270)
+			(at 173.99 124.46 270)
 			(uuid "3033cacd-cd85-494f-9c8d-189a52d72268")
 			(effects
 				(font
@@ -484,7 +654,7 @@
 			)
 		)
 		(pin "GPIO46" input
-			(at 137.16 125.73 270)
+			(at 151.13 124.46 270)
 			(uuid "99160804-6aea-422b-a14a-d8ce8943a413")
 			(effects
 				(font
@@ -494,7 +664,7 @@
 			)
 		)
 		(pin "GPIO47" input
-			(at 173.99 71.12 0)
+			(at 181.61 46.355 0)
 			(uuid "c9f2d584-0a1b-4c2e-bf09-fc3791d7b1d6")
 			(effects
 				(font
@@ -504,7 +674,7 @@
 			)
 		)
 		(pin "GPIO48" input
-			(at 173.99 68.58 0)
+			(at 181.61 43.815 0)
 			(uuid "4d7d0643-f332-4aaa-ba10-91b7bd65022f")
 			(effects
 				(font
@@ -522,7 +692,7 @@
 		)
 	)
 	(sheet
-		(at 97.79 66.04)
+		(at 105.41 41.275)
 		(size 20.32 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -537,7 +707,7 @@
 		)
 		(uuid "421441e2-cdca-4e48-afee-3623fc5e2dbb")
 		(property "Sheetname" "USB_C"
-			(at 97.282 64.77 0)
+			(at 104.902 40.005 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -548,7 +718,7 @@
 			)
 		)
 		(property "Sheetfile" "USB_C.kicad_sch"
-			(at 93.726 75.692 0)
+			(at 101.346 50.927 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -559,7 +729,7 @@
 			)
 		)
 		(pin "D+" input
-			(at 118.11 71.755 0)
+			(at 125.73 46.99 0)
 			(uuid "b5afa93b-757b-4b78-8c3e-73f91a4284ba")
 			(effects
 				(font
@@ -569,7 +739,7 @@
 			)
 		)
 		(pin "D-" input
-			(at 118.11 69.215 0)
+			(at 125.73 44.45 0)
 			(uuid "ffa82061-5014-4d99-b3b7-c4cabac49942")
 			(effects
 				(font
@@ -587,8 +757,93 @@
 		)
 	)
 	(sheet
-		(at 181.61 108.585)
-		(size 15.875 5.08)
+		(at 111.76 99.06)
+		(size 15.24 14.605)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "510cf850-e209-4ea8-8aa9-4ea371602c4e")
+		(property "Sheetname" "LEDs_out"
+			(at 111.76 98.3484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LEDs_out.kicad_sch"
+			(at 100.584 114.808 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Led_B_L" input
+			(at 127 102.235 0)
+			(uuid "ebe1a588-9a48-426d-85a7-ff7bdc155f0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Led_B_R" input
+			(at 127 104.775 0)
+			(uuid "09dc35d5-a3d7-4a8e-8a1d-5a7919ca84fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Led_F_L" input
+			(at 127 107.315 0)
+			(uuid "5192f46a-73a5-4a97-8951-6996047bae0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Led_F_R" input
+			(at 127 109.855 0)
+			(uuid "6264ebd9-cb06-4845-98b1-1e2d61e7aed4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB_DELTA_Car"
+				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 189.23 83.82)
+		(size 15.875 5.715)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -602,7 +857,7 @@
 		)
 		(uuid "512468a4-9cd8-48cf-8f31-5ba8393c146a")
 		(property "Sheetname" "Buzzer"
-			(at 180.848 107.569 0)
+			(at 188.468 82.804 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -613,7 +868,7 @@
 			)
 		)
 		(property "Sheetfile" "Buzzer.kicad_sch"
-			(at 181.61 114.2496 0)
+			(at 189.23 90.043 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -624,7 +879,7 @@
 			)
 		)
 		(pin "Buzzer" input
-			(at 181.61 111.125 180)
+			(at 189.23 86.995 180)
 			(uuid "ea3e691c-3b99-494f-845f-d8e6b3cd5ccb")
 			(effects
 				(font
@@ -642,7 +897,7 @@
 		)
 	)
 	(sheet
-		(at 181.61 65.405)
+		(at 189.23 40.64)
 		(size 19.05 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -657,7 +912,7 @@
 		)
 		(uuid "6d8e917c-6fa5-49e0-9bbd-ea3e27454277")
 		(property "Sheetname" "Puente-H"
-			(at 180.721 64.389 0)
+			(at 188.341 39.624 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -668,7 +923,7 @@
 			)
 		)
 		(property "Sheetfile" "Puente-H.kicad_sch"
-			(at 181.483 74.676 0)
+			(at 189.103 49.911 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -679,7 +934,7 @@
 			)
 		)
 		(pin "In 1" input
-			(at 181.61 68.58 180)
+			(at 189.23 43.815 180)
 			(uuid "c3c6e8da-49d9-488b-a6bc-cc226b569818")
 			(effects
 				(font
@@ -689,7 +944,7 @@
 			)
 		)
 		(pin "In 2" input
-			(at 181.61 71.12 180)
+			(at 189.23 46.355 180)
 			(uuid "feb904f0-b91c-403b-8710-ed02726ad45a")
 			(effects
 				(font
@@ -707,7 +962,7 @@
 		)
 	)
 	(sheet
-		(at 27.305 31.115)
+		(at 44.45 31.75)
 		(size 19.05 9.525)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -722,7 +977,7 @@
 		)
 		(uuid "792686a2-66de-4e67-a673-04d677a308e4")
 		(property "Sheetname" "Entrada-VBATT"
-			(at 26.416 29.972 0)
+			(at 43.561 30.607 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -733,7 +988,7 @@
 			)
 		)
 		(property "Sheetfile" "Entrada-VBATT.kicad_sch"
-			(at 27.178 41.91 0)
+			(at 44.323 42.545 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -752,7 +1007,7 @@
 		)
 	)
 	(sheet
-		(at 26.67 50.165)
+		(at 43.815 50.8)
 		(size 18.415 9.525)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -768,7 +1023,7 @@
 		)
 		(uuid "8663d96f-f0fb-47b8-a659-170d99df3749")
 		(property "Sheetname" "Reguladores"
-			(at 26.67 48.5884 0)
+			(at 43.815 49.2234 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -779,7 +1034,7 @@
 			)
 		)
 		(property "Sheetfile" "Reguladores.kicad_sch"
-			(at 26.67 60.2746 0)
+			(at 43.815 60.9096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -798,7 +1053,7 @@
 		)
 	)
 	(sheet
-		(at 181.61 122.555)
+		(at 189.23 97.155)
 		(size 15.875 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -813,7 +1068,7 @@
 		)
 		(uuid "a1548ecd-9295-40e9-b36f-0fc31f8a6c2c")
 		(property "Sheetname" "Servos"
-			(at 181.483 121.793 0)
+			(at 189.103 96.393 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -824,7 +1079,7 @@
 			)
 		)
 		(property "Sheetfile" "Servos.kicad_sch"
-			(at 181.61 127.5846 0)
+			(at 189.23 102.1846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -835,7 +1090,7 @@
 			)
 		)
 		(pin "PWM_Servo" input
-			(at 181.61 125.095 180)
+			(at 189.23 99.695 180)
 			(uuid "60416c44-850f-4ce0-bf31-dabec7c3eb76")
 			(effects
 				(font
@@ -853,8 +1108,8 @@
 		)
 	)
 	(sheet
-		(at 181.61 94.615)
-		(size 15.875 5.08)
+		(at 189.23 70.485)
+		(size 16.51 5.715)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -868,7 +1123,7 @@
 		)
 		(uuid "a50213a0-5d30-4a26-8269-7b59b3ad4fe7")
 		(property "Sheetname" "Encoder_B"
-			(at 180.848 93.853 0)
+			(at 188.468 69.723 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -879,7 +1134,7 @@
 			)
 		)
 		(property "Sheetfile" "Encoder.kicad_sch"
-			(at 181.483 100.711 0)
+			(at 189.103 76.581 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -890,7 +1145,7 @@
 			)
 		)
 		(pin "Encoder_OUT" output
-			(at 181.61 97.155 180)
+			(at 189.23 73.025 180)
 			(uuid "c6815411-a697-4a75-8f8b-5ed6ba6af6ec")
 			(effects
 				(font
@@ -908,7 +1163,7 @@
 		)
 	)
 	(sheet
-		(at 181.61 81.28)
+		(at 189.23 56.515)
 		(size 15.875 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -923,7 +1178,7 @@
 		)
 		(uuid "a740ed4a-ea31-4a68-a1ba-3895ede7ef6e")
 		(property "Sheetname" "Encoder_A"
-			(at 180.848 80.518 0)
+			(at 188.468 55.753 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -934,7 +1189,7 @@
 			)
 		)
 		(property "Sheetfile" "Encoder.kicad_sch"
-			(at 181.61 87.376 0)
+			(at 189.23 62.611 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -945,7 +1200,7 @@
 			)
 		)
 		(pin "Encoder_OUT" output
-			(at 181.61 83.82 180)
+			(at 189.23 59.055 180)
 			(uuid "e85eec81-b514-4371-bbb7-4bd705717210")
 			(effects
 				(font
@@ -963,7 +1218,7 @@
 		)
 	)
 	(sheet
-		(at 91.44 100.33)
+		(at 99.06 59.055)
 		(size 27.94 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -979,7 +1234,7 @@
 		)
 		(uuid "b3a12824-6a17-4663-beb1-faaa30f27850")
 		(property "Sheetname" "Sensores"
-			(at 91.44 98.7534 0)
+			(at 99.06 57.4784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -990,7 +1245,7 @@
 			)
 		)
 		(property "Sheetfile" "Sensores.kicad_sch"
-			(at 91.44 126.3146 0)
+			(at 99.06 85.0396 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1001,7 +1256,7 @@
 			)
 		)
 		(pin "GPIO10" input
-			(at 119.38 104.14 0)
+			(at 127 62.865 0)
 			(uuid "19826e91-e0b0-4c6e-995e-d67f352eedd2")
 			(effects
 				(font
@@ -1011,7 +1266,7 @@
 			)
 		)
 		(pin "GPIO11" input
-			(at 119.38 106.68 0)
+			(at 127 65.405 0)
 			(uuid "2bf49e60-c641-44b8-a350-1b23b374a856")
 			(effects
 				(font
@@ -1021,7 +1276,7 @@
 			)
 		)
 		(pin "GPIO12" input
-			(at 119.38 109.22 0)
+			(at 127 67.945 0)
 			(uuid "df4eb2dd-3c94-4772-8416-59d795c175b4")
 			(effects
 				(font
@@ -1031,7 +1286,7 @@
 			)
 		)
 		(pin "GPIO13" input
-			(at 119.38 111.76 0)
+			(at 127 70.485 0)
 			(uuid "c1a1ab4d-920d-4ce3-aad6-e0c90ee03020")
 			(effects
 				(font
@@ -1041,7 +1296,7 @@
 			)
 		)
 		(pin "GPIO15" input
-			(at 119.38 114.3 0)
+			(at 127 73.025 0)
 			(uuid "ce94a079-e677-419c-9ae6-5456d8da951e")
 			(effects
 				(font
@@ -1051,7 +1306,7 @@
 			)
 		)
 		(pin "GPIO16" input
-			(at 119.38 116.84 0)
+			(at 127 75.565 0)
 			(uuid "af40cf2e-0d96-4f88-825c-f213b6efb256")
 			(effects
 				(font
@@ -1061,7 +1316,7 @@
 			)
 		)
 		(pin "GPIO17" input
-			(at 119.38 119.38 0)
+			(at 127 78.105 0)
 			(uuid "a423402c-dd0c-47f2-9928-7d65cbec3297")
 			(effects
 				(font
@@ -1071,7 +1326,7 @@
 			)
 		)
 		(pin "GPIO18" input
-			(at 119.38 121.92 0)
+			(at 127 80.645 0)
 			(uuid "5250aabd-f9be-43b2-91e6-641e4b8601ef")
 			(effects
 				(font
@@ -1081,7 +1336,7 @@
 			)
 		)
 		(pin "SCL" input
-			(at 91.44 115.57 180)
+			(at 99.06 74.295 180)
 			(uuid "018df167-40bb-4449-abaa-0560ca69a377")
 			(effects
 				(font
@@ -1091,7 +1346,7 @@
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 91.44 111.76 180)
+			(at 99.06 70.485 180)
 			(uuid "d5c7c950-04e5-4ab4-9030-3ecac8ea3b40")
 			(effects
 				(font
@@ -1104,6 +1359,61 @@
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 189.23 110.49)
+		(size 17.78 6.985)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ed94ce5d-a465-464c-bdad-6ff5a52c4219")
+		(property "Sheetname" "Tira_led"
+			(at 189.23 109.601 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LEDs.kicad_sch"
+			(at 189.23 118.0596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Din_Leds" input
+			(at 189.23 113.665 180)
+			(uuid "f1a9c8a7-55a7-4b0e-a162-cd61ed31edd6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PCB_DELTA_Car"
+				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d"
+					(page "12")
 				)
 			)
 		)

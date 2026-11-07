@@ -2529,7 +2529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03617668-526c-445d-b214-3ed172f3e6fc")
-		(property "Reference" "SW3"
+		(property "Reference" "SW2"
 			(at 132.08 39.3699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2593,7 +2593,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/2a9a73de-bc9d-49ad-b06b-84204940ff5e"
-					(reference "SW3")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -2611,7 +2611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24b1f2a6-0b9b-420b-aeed-71522cdb23fb")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR036"
 			(at 147.32 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -2671,7 +2671,85 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/2a9a73de-bc9d-49ad-b06b-84204940ff5e"
-					(reference "#PWR055")
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 140.97 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3deeff54-164f-4a69-8c41-a3adaabc5cf6")
+		(property "Reference" "#PWR034"
+			(at 140.97 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4625f392-c152-429b-a96c-a911d611d6bd")
+		)
+		(instances
+			(project "PCB_DELTA_Car"
+				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/2a9a73de-bc9d-49ad-b06b-84204940ff5e"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -2689,7 +2767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47f4c44d-b780-42e2-870e-e07db63ba6e2")
-		(property "Reference" "C17"
+		(property "Reference" "C15"
 			(at 162.56 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2753,7 +2831,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/2a9a73de-bc9d-49ad-b06b-84204940ff5e"
-					(reference "C17")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -2771,7 +2849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53185fb7-bd2e-458a-8625-4248cc710b80")
-		(property "Reference" "SW4"
+		(property "Reference" "SW3"
 			(at 148.59 40.6399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2835,7 +2913,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/2a9a73de-bc9d-49ad-b06b-84204940ff5e"
-					(reference "SW4")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -2852,7 +2930,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "556c1e72-d335-41f5-b3ec-f746e62145e1")
-		(property "Reference" "C3"
+		(property "Reference" "C14"
 			(at 147.32 67.056 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2914,7 +2992,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/2a9a73de-bc9d-49ad-b06b-84204940ff5e"
-					(reference "C3")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -2932,7 +3010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f03d2ad-544f-47c3-b392-8fd3b289c280")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR032"
 			(at 130.81 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2992,7 +3070,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/2a9a73de-bc9d-49ad-b06b-84204940ff5e"
-					(reference "#PWR053")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -3010,7 +3088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97bfa460-e6fc-4207-b631-5db93452ae66")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR033"
 			(at 140.97 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3070,7 +3148,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/2a9a73de-bc9d-49ad-b06b-84204940ff5e"
-					(reference "#PWR01")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -3088,7 +3166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ccdcad1-4195-4e76-9de1-1cb347c11299")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR035"
 			(at 147.32 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -3148,85 +3226,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/2a9a73de-bc9d-49ad-b06b-84204940ff5e"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 140.97 163.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a98fc4bb-e7d3-4620-b041-c2c01e3d2eb3")
-		(property "Reference" "#PWR049"
-			(at 140.97 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 140.97 168.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d99e4060-49fa-4a4c-9877-a7f157ca5c17")
-		)
-		(instances
-			(project "PCB_DELTA_Car"
-				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/2a9a73de-bc9d-49ad-b06b-84204940ff5e"
-					(reference "#PWR049")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -3244,7 +3244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b024cf6e-1f8a-4883-af9a-d92918d30c36")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR037"
 			(at 161.29 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -3305,7 +3305,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/2a9a73de-bc9d-49ad-b06b-84204940ff5e"
-					(reference "#PWR052")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -3323,7 +3323,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "baa6a36e-6e3b-489f-af43-62038022ad72")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 143.1133 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3504,7 +3504,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/2a9a73de-bc9d-49ad-b06b-84204940ff5e"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -3522,7 +3522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f428d82b-ccd8-4792-926d-f60ec7a105ca")
-		(property "Reference" "R10"
+		(property "Reference" "R5"
 			(at 149.86 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3586,7 +3586,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/2a9a73de-bc9d-49ad-b06b-84204940ff5e"
-					(reference "R10")
+					(reference "R5")
 					(unit 1)
 				)
 			)

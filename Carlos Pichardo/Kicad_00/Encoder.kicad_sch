@@ -871,7 +871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0684c409-1c77-4265-bf92-5be37251229e")
-		(property "Reference" "R"
+		(property "Reference" "R6"
 			(at 152.4 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -935,7 +935,11 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/a50213a0-5d30-4a26-8269-7b59b3ad4fe7"
-					(reference "R3")
+					(reference "R7")
+					(unit 1)
+				)
+				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/a740ed4a-ea31-4a68-a1ba-3895ede7ef6e"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -953,7 +957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b5c627f-641f-4bbd-8436-0a5204b875a6")
-		(property "Reference" "C"
+		(property "Reference" "C16"
 			(at 153.67 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1017,7 +1021,11 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/a50213a0-5d30-4a26-8269-7b59b3ad4fe7"
-					(reference "C2")
+					(reference "C17")
+					(unit 1)
+				)
+				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/a740ed4a-ea31-4a68-a1ba-3895ede7ef6e"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -1035,7 +1043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "493a9260-2ac4-4b02-b557-1a4fa05a7434")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR039"
 			(at 132.08 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -1095,7 +1103,11 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/a50213a0-5d30-4a26-8269-7b59b3ad4fe7"
-					(reference "#PWR010")
+					(reference "#PWR041")
+					(unit 1)
+				)
+				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/a740ed4a-ea31-4a68-a1ba-3895ede7ef6e"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -1113,7 +1125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59b0e8ba-35b4-4c75-b241-e73b0fc25d26")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR038"
 			(at 132.08 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -1173,7 +1185,11 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/a50213a0-5d30-4a26-8269-7b59b3ad4fe7"
-					(reference "#PWR09")
+					(reference "#PWR040")
+					(unit 1)
+				)
+				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/a740ed4a-ea31-4a68-a1ba-3895ede7ef6e"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -1191,7 +1207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76699915-e09c-48b8-b600-c39870d7ebce")
-		(property "Reference" "U"
+		(property "Reference" "U5"
 			(at 128.27 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1259,7 +1275,11 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/a50213a0-5d30-4a26-8269-7b59b3ad4fe7"
-					(reference "U2")
+					(reference "U6")
+					(unit 1)
+				)
+				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/a740ed4a-ea31-4a68-a1ba-3895ede7ef6e"
+					(reference "U5")
 					(unit 1)
 				)
 			)

@@ -1024,145 +1024,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1259,6 +1120,145 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VBUS"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
 					(length 0)
 					(name ""
 						(effects
@@ -1494,84 +1494,6 @@
 		(uuid "c6825138-02aa-47c6-8794-3e57172467ad")
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 175.26 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07a817af-5ba1-4dce-841c-e2a5725db0f3")
-		(property "Reference" "#PWR036"
-			(at 175.26 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 175.26 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 175.26 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "29904c2c-158f-4bd9-9f6c-5b8b18f248c2")
-		)
-		(instances
-			(project "PCB_DELTA_Car"
-				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/421441e2-cdca-4e48-afee-3623fc5e2dbb"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 133.35 100.33 0)
 		(unit 1)
@@ -1583,7 +1505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "091cdd3a-60fc-43d2-81a1-48c5ac1ec2fb")
-		(property "Reference" "J1"
+		(property "Reference" "J9"
 			(at 133.35 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1690,7 +1612,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/421441e2-cdca-4e48-afee-3623fc5e2dbb"
-					(reference "J1")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -1708,7 +1630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4382062e-95a0-4b09-8468-9fbbcd2d7378")
-		(property "Reference" "R8"
+		(property "Reference" "R3"
 			(at 163.83 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1772,7 +1694,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/421441e2-cdca-4e48-afee-3623fc5e2dbb"
-					(reference "R8")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -1790,7 +1712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58a1642f-9b7d-4a2f-abf2-476f07f7f569")
-		(property "Reference" "R9"
+		(property "Reference" "R4"
 			(at 173.99 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1854,7 +1776,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/421441e2-cdca-4e48-afee-3623fc5e2dbb"
-					(reference "R9")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -1872,7 +1794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87db8d2c-0684-4994-8458-0975aa8379f5")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR030"
 			(at 165.1 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -1932,7 +1854,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/421441e2-cdca-4e48-afee-3623fc5e2dbb"
-					(reference "#PWR031")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -1950,7 +1872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c8862b5-f02a-490e-91ea-5e09d358e865")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR029"
 			(at 129.54 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -2010,7 +1932,85 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/421441e2-cdca-4e48-afee-3623fc5e2dbb"
-					(reference "#PWR025")
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 175.26 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ead63c29-9ac2-4f24-ac6e-e560392b9723")
+		(property "Reference" "#PWR031"
+			(at 175.26 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 175.26 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 175.26 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1eb98262-4387-41a7-bb0b-b9d1c36ccfc2")
+		)
+		(instances
+			(project "PCB_DELTA_Car"
+				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/421441e2-cdca-4e48-afee-3623fc5e2dbb"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -2028,7 +2028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb3ba1d0-4566-4d6c-8cb5-53719f875721")
-		(property "Reference" "D3"
+		(property "Reference" "D1"
 			(at 161.6075 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2090,7 +2090,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/421441e2-cdca-4e48-afee-3623fc5e2dbb"
-					(reference "D3")
+					(reference "D1")
 					(unit 1)
 				)
 			)

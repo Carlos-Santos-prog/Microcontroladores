@@ -912,7 +912,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32475734-ac85-4824-83a1-34c1cf986e15")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 134.62 82.804 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -974,7 +974,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/512468a4-9cd8-48cf-8f31-5ba8393c146a"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -992,7 +992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bc39370-4ccf-40ee-a990-d44d0d347ca6")
-		(property "Reference" "BZ2"
+		(property "Reference" "BZ1"
 			(at 154.94 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1056,7 +1056,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/512468a4-9cd8-48cf-8f31-5ba8393c146a"
-					(reference "BZ2")
+					(reference "BZ1")
 					(unit 1)
 				)
 			)
@@ -1074,7 +1074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a21b18b5-9c93-4d2f-911e-fce6d0a8d5e3")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR024"
 			(at 158.75 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -1135,7 +1135,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/512468a4-9cd8-48cf-8f31-5ba8393c146a"
-					(reference "#PWR048")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -1153,7 +1153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bce55dcd-0cb5-4b1a-9398-330a8c0c74c2")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1"
 			(at 151.13 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1245,7 +1245,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/512468a4-9cd8-48cf-8f31-5ba8393c146a"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -1263,7 +1263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6c3b55f-9662-49ca-a38f-6a7f7e65d3c1")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR023"
 			(at 143.51 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -1323,7 +1323,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/512468a4-9cd8-48cf-8f31-5ba8393c146a"
-					(reference "#PWR047")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)

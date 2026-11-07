@@ -227,6 +227,183 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
@@ -555,7 +732,7 @@
 		)
 	)
 	(rectangle
-		(start 134.62 71.755)
+		(start 125.095 71.755)
 		(end 168.91 93.98)
 		(stroke
 			(width 0)
@@ -568,7 +745,7 @@
 	)
 	(text "Servo"
 		(exclude_from_sim no)
-		(at 150.876 76.962 0)
+		(at 146.812 75.184 0)
 		(effects
 			(font
 				(size 2 2)
@@ -576,25 +753,47 @@
 		)
 		(uuid "6177d74e-c067-42c8-8a6e-4f44f6d361bf")
 	)
-	(wire
-		(pts
-			(xy 152.4 86.36) (xy 148.59 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66c2b57c-0517-4791-ab3d-5c23275e0c43")
+	(junction
+		(at 143.51 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06aa4c69-ee62-418f-9857-1097c8aee5b0")
+	)
+	(junction
+		(at 143.51 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40987972-fec6-485f-b588-eb5214251552")
 	)
 	(wire
 		(pts
-			(xy 148.59 88.9) (xy 152.4 88.9)
+			(xy 143.51 78.74) (xy 148.59 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a944ca12-60fd-4f9c-bc18-534e3d5793f4")
+		(uuid "1f8ed690-7942-4dff-acb7-ac8e182e93de")
+	)
+	(wire
+		(pts
+			(xy 148.59 78.74) (xy 148.59 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26d6fb07-46bd-4548-a0b1-ae0bc0c2254f")
+	)
+	(wire
+		(pts
+			(xy 143.51 86.36) (xy 138.43 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27710956-851e-4422-a78a-6afe8dad78aa")
 	)
 	(wire
 		(pts
@@ -604,11 +803,41 @@
 			(width 0)
 			(type default)
 		)
+		(uuid "8b6415bd-b438-4af6-9c77-3ae58f398eec")
+	)
+	(wire
+		(pts
+			(xy 138.43 88.9) (xy 152.4 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a944ca12-60fd-4f9c-bc18-534e3d5793f4")
+	)
+	(wire
+		(pts
+			(xy 143.51 86.36) (xy 152.4 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baa67c3f-b35b-47c5-b475-2a5d75207e14")
+	)
+	(wire
+		(pts
+			(xy 139.7 78.74) (xy 143.51 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
 		(uuid "d668d626-6902-46b2-af1f-b868d8420e2d")
 	)
 	(hierarchical_label "PWM_Servo"
 		(shape input)
-		(at 148.59 88.9 180)
+		(at 138.43 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -629,7 +858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "157a61dd-4543-4d3e-a1f0-35c772f54ada")
-		(property "Reference" "J10"
+		(property "Reference" "J2"
 			(at 158.75 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -696,7 +925,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/a1548ecd-9295-40e9-b36f-0fc31f8a6c2c"
-					(reference "J10")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -704,7 +933,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 148.59 86.36 90)
+		(at 138.43 86.36 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -714,8 +943,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b68c4ff1-211a-4aff-874a-0aadcfb5623b")
-		(property "Reference" "#PWR024"
-			(at 152.4 86.36 0)
+		(property "Reference" "#PWR011"
+			(at 142.24 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -726,7 +955,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 144.78 86.3599 90)
+			(at 134.62 86.3599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -737,7 +966,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 86.36 0)
+			(at 138.43 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -748,7 +977,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 86.36 0)
+			(at 138.43 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -759,7 +988,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 148.59 86.36 0)
+			(at 138.43 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -775,15 +1004,15 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/a1548ecd-9295-40e9-b36f-0fc31f8a6c2c"
-					(reference "#PWR024")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 148.59 83.82 270)
+		(lib_id "Device:C_Polarized")
+		(at 143.51 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -791,32 +1020,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f69d1041-70ae-4231-b7ea-e19460e8576d")
-		(property "Reference" "#PWR023"
-			(at 143.51 83.82 0)
-			(hide yes)
+		(uuid "f6288ab4-64b7-4ada-b7d3-41a9eae5daa7")
+		(property "Reference" "C11"
+			(at 145.034 80.264 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GNDPWR"
-			(at 144.78 83.6929 90)
+		(property "Value" "47uF"
+			(at 135.636 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 83.82 0)
+			(at 144.4752 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -827,7 +1055,89 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 83.82 0)
+			(at 143.51 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 143.51 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "41fc11fd-81a3-4c9e-96f2-ef109c21d0af")
+		)
+		(pin "1"
+			(uuid "f62f8100-71ea-49d3-a2d8-576fb1a35823")
+		)
+		(instances
+			(project "PCB_DELTA_Car"
+				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/a1548ecd-9295-40e9-b36f-0fc31f8a6c2c"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 139.7 78.74 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f69d1041-70ae-4231-b7ea-e19460e8576d")
+		(property "Reference" "#PWR012"
+			(at 134.62 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 135.89 78.6129 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -838,7 +1148,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 148.59 83.82 0)
+			(at 139.7 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -854,7 +1164,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/a1548ecd-9295-40e9-b36f-0fc31f8a6c2c"
-					(reference "#PWR023")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
