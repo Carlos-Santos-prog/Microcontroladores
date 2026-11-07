@@ -842,13 +842,33 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 87.63) (xy 140.97 87.63)
+			(xy 138.43 87.63) (xy 140.97 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a25a8c6b-75c1-4b31-8e05-1e04b3be9a94")
+	)
+	(wire
+		(pts
+			(xy 143.51 72.39) (xy 143.51 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a992cef1-ffda-4611-a65d-2e9401236e40")
+	)
+	(wire
+		(pts
+			(xy 143.51 74.93) (xy 148.59 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc3a5b11-4678-4933-86ed-c67cc6663b4c")
 	)
 	(wire
 		(pts
@@ -862,17 +882,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 74.93) (xy 148.59 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f085103f-abe5-4ce5-abba-6cd35c12fe66")
-	)
-	(wire
-		(pts
-			(xy 125.73 87.63) (xy 128.27 87.63)
+			(xy 128.27 87.63) (xy 130.81 87.63)
 		)
 		(stroke
 			(width 0)
@@ -880,33 +890,20 @@
 		)
 		(uuid "f446b4fe-a6cd-42a4-80d5-b81f0028e839")
 	)
-	(global_label "Buzzer"
+	(hierarchical_label "Buzzer"
 		(shape input)
-		(at 125.73 87.63 180)
-		(fields_autoplaced yes)
+		(at 128.27 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "b06c0bd1-40fa-476f-ba10-29ae33e0945c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.3948 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "d499e4c0-1d2a-4e16-94eb-267fdc9b1e5a")
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 87.63 270)
+		(at 134.62 87.63 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -916,7 +913,7 @@
 		(dnp no)
 		(uuid "32475734-ac85-4824-83a1-34c1cf986e15")
 		(property "Reference" "R2"
-			(at 132.08 82.804 90)
+			(at 134.62 82.804 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -926,7 +923,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 132.08 85.344 90)
+			(at 134.62 85.344 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -936,7 +933,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 132.08 85.852 90)
+			(at 134.62 85.852 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -947,7 +944,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 87.63 0)
+			(at 134.62 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -958,7 +955,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 87.63 0)
+			(at 134.62 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1256,7 +1253,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 142.24 74.93 0)
+		(at 143.51 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1267,7 +1264,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6c3b55f-9662-49ca-a38f-6a7f7e65d3c1")
 		(property "Reference" "#PWR047"
-			(at 142.24 78.74 0)
+			(at 143.51 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1278,7 +1275,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 142.24 69.85 0)
+			(at 143.51 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1288,7 +1285,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 74.93 0)
+			(at 143.51 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1299,7 +1296,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 74.93 0)
+			(at 143.51 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1310,7 +1307,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 142.24 74.93 0)
+			(at 143.51 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

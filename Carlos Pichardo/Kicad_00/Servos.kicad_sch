@@ -606,29 +606,16 @@
 		)
 		(uuid "d668d626-6902-46b2-af1f-b868d8420e2d")
 	)
-	(global_label "Sig"
+	(hierarchical_label "PWM_Servo"
 		(shape input)
 		(at 148.59 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "b3043fd7-dc7a-4ee9-bf06-ae54b861733c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.6415 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "2b62c280-fd41-4bc6-bdac-49feb8631ec3")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")

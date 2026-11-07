@@ -268,7 +268,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x05_Pin"
+		(symbol "Connector:Conn_01x06_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -288,8 +288,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x05_Pin"
-				(at 0 -7.62 0)
+			(property "Value" "Conn_01x06_Pin"
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -320,7 +320,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x05, script generated"
+			(property "Description" "Generic connector, single row, 01x06, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -363,7 +363,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x05_Pin_1_1"
+			(symbol "Conn_01x06_Pin_1_1"
 				(rectangle
 					(start 0.8636 5.207)
 					(end 0 4.953)
@@ -411,6 +411,17 @@
 				(rectangle
 					(start 0.8636 -4.953)
 					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -7.493)
+					(end 0 -7.747)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -470,6 +481,18 @@
 				(polyline
 					(pts
 						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
 					)
 					(stroke
 						(width 0.1524)
@@ -562,6 +585,24 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -711,6 +752,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -839,717 +1019,817 @@
 		)
 		(uuid "377eba82-c232-4b9a-b960-6e2699febf92")
 	)
+	(text "GPIOB\n"
+		(exclude_from_sim no)
+		(at 156.21 123.444 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "191141d9-854a-43ff-a1c1-7f79946159bd")
+	)
+	(text "GPIOC\n"
+		(exclude_from_sim no)
+		(at 128.524 123.444 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1aa952e0-dbbb-4842-a050-212e867ca4aa")
+	)
+	(text "SCL\n"
+		(exclude_from_sim no)
+		(at 155.194 118.364 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2646f321-936d-4cf8-9ac2-da2524268671")
+	)
+	(text "SDA\n"
+		(exclude_from_sim no)
+		(at 127.508 115.824 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2873a969-d678-4260-84bc-cd51813c740d")
+	)
+	(text "GPIOB\n"
+		(exclude_from_sim no)
+		(at 156.464 98.044 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2bfa56e5-2931-496f-9ca3-ae63cf16eb37")
+	)
+	(text "SDA\n"
+		(exclude_from_sim no)
+		(at 126.238 90.424 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4b04b151-17d4-4988-87ff-55f67eefffba")
+	)
+	(text "GPIOA\n"
+		(exclude_from_sim no)
+		(at 127.254 98.044 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "59b3b773-2f2a-47f6-9955-335bbf525f02")
+	)
+	(text "SDA\n"
+		(exclude_from_sim no)
+		(at 155.448 90.424 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5c5aac95-60c6-4e7b-a605-d6c82780b51e")
+	)
+	(text "XSHUT D\n"
+		(exclude_from_sim no)
+		(at 157.48 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5f16c110-c9fe-4595-a409-0f3d3adcf7bd")
+	)
+	(text "XSHUT A\n"
+		(exclude_from_sim no)
+		(at 128.27 95.504 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "71e619f1-9bb4-4841-865b-29ade44e8cba")
+	)
+	(text "SCL\n"
+		(exclude_from_sim no)
+		(at 126.238 92.964 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "77440cb9-0edf-47ed-8062-fc18252b2bee")
+	)
+	(text "SCL\n"
+		(exclude_from_sim no)
+		(at 155.448 92.964 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8a6e920f-353e-42f8-aad7-e1ad0b10efb0")
+	)
 	(text "Sensores"
 		(exclude_from_sim no)
 		(at 150.622 69.596 0)
 		(effects
 			(font
-				(size 2 2)
+				(size 3 3)
 			)
 		)
 		(uuid "ac655013-032c-4b57-9c59-2b632970750a")
 	)
-	(wire
-		(pts
-			(xy 177.8 110.49) (xy 182.88 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05fcea29-b08b-4d82-9187-a6666a8c7103")
-	)
-	(wire
-		(pts
-			(xy 113.03 113.03) (xy 118.11 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "068ed350-9c7b-4afe-afd4-b0385783fe84")
-	)
-	(wire
-		(pts
-			(xy 176.53 91.44) (xy 181.61 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0867476f-6464-4845-9c94-3cec9620ee78")
-	)
-	(wire
-		(pts
-			(xy 143.51 88.9) (xy 154.94 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f735212-06ef-4146-883f-6342395cd81c")
-	)
-	(wire
-		(pts
-			(xy 143.51 118.11) (xy 148.59 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17cf5059-6b32-4b14-8bee-a8608ed55350")
-	)
-	(wire
-		(pts
-			(xy 143.51 93.98) (xy 148.59 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24eab97f-9f67-4082-8eb3-e74669ceb01d")
-	)
-	(wire
-		(pts
-			(xy 113.03 110.49) (xy 123.19 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2aa3bc1b-afa9-4c23-97d2-689725634eeb")
-	)
-	(wire
-		(pts
-			(xy 143.51 91.44) (xy 148.59 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2eb9f8c4-a5e7-4aaa-a8a9-386c014fcb0c")
-	)
-	(wire
-		(pts
-			(xy 110.49 93.98) (xy 115.57 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33b89bf0-1beb-4b4e-a4cb-86c573346ecb")
-	)
-	(wire
-		(pts
-			(xy 176.53 88.9) (xy 187.96 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e40b355-1dd7-449c-9a24-6acf1c633350")
-	)
-	(wire
-		(pts
-			(xy 110.49 88.9) (xy 121.92 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52f3aa78-9304-43cc-8381-0b9180ad19fd")
-	)
-	(wire
-		(pts
-			(xy 176.53 96.52) (xy 181.61 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5759492b-f948-45ad-8075-9331c5b8d039")
-	)
-	(wire
-		(pts
-			(xy 143.51 113.03) (xy 148.59 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a4e8299-768c-428a-a466-c353633cded6")
-	)
-	(wire
-		(pts
-			(xy 110.49 91.44) (xy 115.57 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73996699-c3d6-41d0-a44c-e2bb85f033cf")
-	)
-	(wire
-		(pts
-			(xy 177.8 118.11) (xy 182.88 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b8525e4-95af-4776-bad5-2bc9760ce4b7")
-	)
-	(wire
-		(pts
-			(xy 143.51 115.57) (xy 148.59 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "848995bf-9830-4e4f-8aef-c89038425229")
-	)
-	(wire
-		(pts
-			(xy 143.51 107.95) (xy 148.59 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8aed3378-a4de-4081-9990-0cd893d54621")
-	)
-	(wire
-		(pts
-			(xy 177.8 115.57) (xy 182.88 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d7fce3d-2bf7-470b-9477-c57c29b413c6")
-	)
-	(wire
-		(pts
-			(xy 143.51 110.49) (xy 154.94 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91f4f2e8-e898-4e16-9524-a99713db2016")
-	)
-	(wire
-		(pts
-			(xy 143.51 86.36) (xy 148.59 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a7ff27b-a8d3-4eb0-a5ff-0269960e0be1")
-	)
-	(wire
-		(pts
-			(xy 113.03 118.11) (xy 118.11 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e55cca0-417f-4d66-b8b8-6536626ff962")
-	)
-	(wire
-		(pts
-			(xy 110.49 96.52) (xy 115.57 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3311922-5cae-487a-8cec-b9f6427e219b")
-	)
-	(wire
-		(pts
-			(xy 113.03 107.95) (xy 118.11 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be01b793-058b-4d2a-bf30-51b18c685156")
-	)
-	(wire
-		(pts
-			(xy 143.51 96.52) (xy 148.59 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6ff7122-68c8-46d7-bb08-fc1441000046")
-	)
-	(wire
-		(pts
-			(xy 110.49 86.36) (xy 115.57 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4073793-7b59-4598-81a7-691f28249550")
-	)
-	(wire
-		(pts
-			(xy 176.53 86.36) (xy 181.61 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e77d04c8-a00e-45d2-93e3-2fc23f706c8a")
-	)
-	(wire
-		(pts
-			(xy 177.8 113.03) (xy 189.23 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee4c5c0d-4e32-401c-a91b-d501d8110395")
-	)
-	(wire
-		(pts
-			(xy 113.03 115.57) (xy 118.11 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef45fb8a-6bd5-4eac-a1d4-e2be71b873f1")
-	)
-	(wire
-		(pts
-			(xy 176.53 93.98) (xy 181.61 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4461c62-63d3-4a30-b070-27b8e5d29613")
-	)
-	(global_label "XSHUT"
-		(shape input)
-		(at 118.11 118.11 0)
-		(fields_autoplaced yes)
+	(text "SCL\n"
+		(exclude_from_sim no)
+		(at 127.508 118.364 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
 		)
-		(uuid "246a5424-c5eb-4e40-ab1a-36883da310fc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.1428 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "b30721b5-ea46-4dd1-bbe9-7c074a8205b2")
 	)
-	(global_label "SCL"
-		(shape input)
-		(at 148.59 113.03 0)
-		(fields_autoplaced yes)
+	(text "XSHUT C\n\n"
+		(exclude_from_sim no)
+		(at 129.54 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
 		)
-		(uuid "2eece496-7f1c-46b5-96f7-8ee646d7f5ec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.0828 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+		(uuid "bfab2e17-5a7f-4fb3-97ad-baa2532862d2")
+	)
+	(text "XSHUT B\n"
+		(exclude_from_sim no)
+		(at 157.48 95.504 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
 		)
+		(uuid "d619c62e-6392-4df8-82bf-2895d9694117")
 	)
-	(global_label "SDA"
+	(text "SDA\n"
+		(exclude_from_sim no)
+		(at 155.194 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dfa2ca2b-97d5-44c6-a27d-6a3116caef58")
+	)
+	(text_box "Sensor de temperatura\n"
+		(exclude_from_sim no)
+		(at 166.37 88.9 0)
+		(size 29.21 24.13)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3e07f459-798d-4c76-928e-658f3f7d4770")
+	)
+	(text_box "ESP-32-WROOM 1"
+		(exclude_from_sim no)
+		(at -569.595 -11.43 0)
+		(size 130.81 101.6)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "7ea9b295-dcd3-4dd8-a997-6b9bab71226e")
+	)
+	(text_box "Sensores laser\n"
+		(exclude_from_sim no)
+		(at 102.235 73.025 0)
+		(size 62.23 55.88)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a261f03b-0e79-4968-bfa5-80eee5edd126")
+	)
+	(wire
+		(pts
+			(xy 139.7 87.63) (xy 147.32 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f77b6e2-4179-4436-8b31-9b08f34d55b0")
+	)
+	(wire
+		(pts
+			(xy 111.76 113.03) (xy 119.38 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23f39122-f88a-4394-8e2b-6b7cc434d0c2")
+	)
+	(wire
+		(pts
+			(xy 114.3 92.71) (xy 118.11 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2501ab7a-d001-4d9a-95e3-445e012d5601")
+	)
+	(wire
+		(pts
+			(xy 143.51 82.55) (xy 143.51 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37a3fc79-3455-4fe9-9e64-4620b668c18a")
+	)
+	(wire
+		(pts
+			(xy 115.57 118.11) (xy 119.38 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ca7b0b8-949c-43ee-8de4-a6296b329393")
+	)
+	(wire
+		(pts
+			(xy 139.7 85.09) (xy 139.7 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "409c4770-082e-40a1-af22-db6d307512dd")
+	)
+	(wire
+		(pts
+			(xy 114.3 85.09) (xy 118.11 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ee93069-6b6e-4917-a0ea-38045de4b802")
+	)
+	(wire
+		(pts
+			(xy 143.51 97.79) (xy 147.32 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f01af6a-e5ad-4849-b3e9-10d061611aa2")
+	)
+	(wire
+		(pts
+			(xy 114.3 95.25) (xy 118.11 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56b8172e-a991-42c4-ac7f-7b6c76541288")
+	)
+	(wire
+		(pts
+			(xy 176.53 106.68) (xy 181.61 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58dd12b4-cda6-4937-b544-cf2b68beab5f")
+	)
+	(wire
+		(pts
+			(xy 114.3 90.17) (xy 118.11 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a24749b-b490-40e7-a3a0-fc970ba36c76")
+	)
+	(wire
+		(pts
+			(xy 189.23 104.14) (xy 176.53 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c0cb1db-e092-4073-80c6-137757aab23f")
+	)
+	(wire
+		(pts
+			(xy 111.76 110.49) (xy 111.76 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c5e67e0-3f87-400f-8329-595ff5050d72")
+	)
+	(wire
+		(pts
+			(xy 143.51 115.57) (xy 147.32 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e9db401-b81a-42a3-8cd5-fbe459c1a32b")
+	)
+	(wire
+		(pts
+			(xy 189.23 101.6) (xy 189.23 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f3667f2-be2f-4d46-b3ca-b6c2e41900bc")
+	)
+	(wire
+		(pts
+			(xy 140.97 113.03) (xy 147.32 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "773b3334-71c4-417d-83a5-e28a668c2575")
+	)
+	(wire
+		(pts
+			(xy 115.57 115.57) (xy 119.38 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e31ebcc-3f0f-4f40-abd5-3a99ac74112f")
+	)
+	(wire
+		(pts
+			(xy 110.49 85.09) (xy 110.49 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "885e5093-f78e-481d-bfad-fea10aacf876")
+	)
+	(wire
+		(pts
+			(xy 143.51 90.17) (xy 147.32 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "886f9448-a0cf-4ddd-979b-162f042e1e56")
+	)
+	(wire
+		(pts
+			(xy 143.51 92.71) (xy 147.32 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cdc3e7e-e063-4a43-a4f3-fdbd1c1e2eb8")
+	)
+	(wire
+		(pts
+			(xy 176.53 109.22) (xy 181.61 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ee06128-75d9-45e3-bca2-ff10b6ff4771")
+	)
+	(wire
+		(pts
+			(xy 184.15 101.6) (xy 176.53 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93208368-079e-4a90-b286-c78293c300fc")
+	)
+	(wire
+		(pts
+			(xy 143.51 118.11) (xy 147.32 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "981e5e38-6075-4584-96f5-c51cd46d1e36")
+	)
+	(wire
+		(pts
+			(xy 140.97 113.03) (xy 140.97 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b30a8076-b8f6-4c28-89c6-2b4ff42997e0")
+	)
+	(wire
+		(pts
+			(xy 110.49 87.63) (xy 118.11 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd0160e8-9895-41a5-997f-eac434b36b04")
+	)
+	(wire
+		(pts
+			(xy 143.51 95.25) (xy 147.32 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca89c041-02f9-4e26-a891-cc6882c07c9c")
+	)
+	(wire
+		(pts
+			(xy 114.3 97.79) (xy 118.11 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca9a8f6e-a53d-459b-8a3b-c618253b5d6d")
+	)
+	(wire
+		(pts
+			(xy 184.15 99.06) (xy 184.15 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd506419-794d-4d39-8356-b6902b6eadae")
+	)
+	(wire
+		(pts
+			(xy 143.51 110.49) (xy 147.32 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4031e6f-cea5-4796-9e33-ca4dcbed3a2f")
+	)
+	(wire
+		(pts
+			(xy 115.57 123.19) (xy 119.38 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db432716-82b9-41dd-baf0-c8821eafacc0")
+	)
+	(wire
+		(pts
+			(xy 143.51 123.19) (xy 147.32 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ea6093-c076-4247-8573-e793a419823e")
+	)
+	(wire
+		(pts
+			(xy 143.51 120.65) (xy 147.32 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5cf806d-4648-4714-be24-d18fa2548ca1")
+	)
+	(wire
+		(pts
+			(xy 115.57 120.65) (xy 119.38 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9f5b04f-17fd-42ca-8cfb-d8f4124433dd")
+	)
+	(wire
+		(pts
+			(xy 143.51 107.95) (xy 143.51 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee26d7d4-b508-4133-a98c-ec0fcc5d5855")
+	)
+	(wire
+		(pts
+			(xy 115.57 107.95) (xy 115.57 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef72b171-07fd-4978-90b9-7a5995588ed1")
+	)
+	(wire
+		(pts
+			(xy 143.51 85.09) (xy 147.32 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f346349a-214f-436c-aff1-22604889f3bd")
+	)
+	(wire
+		(pts
+			(xy 115.57 110.49) (xy 119.38 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc2ba321-7483-4a9c-85b5-784d77ff4497")
+	)
+	(wire
+		(pts
+			(xy 114.3 82.55) (xy 114.3 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff33fd4a-81eb-48c6-aea9-5bb0ce287952")
+	)
+	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 182.88 118.11 0)
-		(fields_autoplaced yes)
+		(at 181.61 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "332f2f95-f2c2-4ebd-88f3-57b7d33dda33")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.5446 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "15c8e1f4-9de2-4d1d-9caf-4df728165946")
 	)
-	(global_label "XSHUT"
-		(shape input)
-		(at 181.61 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3e57eec0-a98d-4d7d-b39d-db917ba2ed32")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.6428 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "SDA"
+	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 148.59 115.57 0)
-		(fields_autoplaced yes)
+		(at 143.51 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "3f498ee0-359b-4f9b-b0d9-8fbe47095239")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.2546 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "2f2f4804-675c-44b2-92d2-471cf56c22d6")
 	)
-	(global_label "XSHUT"
+	(hierarchical_label "GPIO16"
 		(shape input)
-		(at 148.59 96.52 0)
-		(fields_autoplaced yes)
+		(at 143.51 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "4103a52b-60fc-4d23-a5ee-f108c2a708a6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.6228 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "44a69988-a70c-449e-9014-1792de926788")
 	)
-	(global_label "SCL"
+	(hierarchical_label "GPIO13"
 		(shape input)
-		(at 118.11 113.03 0)
-		(fields_autoplaced yes)
+		(at 143.51 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "5f9ed894-4dc7-46eb-881a-34ddb7988b4a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.6028 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "44cffed2-53eb-4d5d-9422-bcbd825c8b9b")
 	)
-	(global_label "SCL"
+	(hierarchical_label "GPIO18"
 		(shape input)
-		(at 115.57 91.44 0)
-		(fields_autoplaced yes)
+		(at 143.51 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "6a766dbb-51dd-48e3-b6cc-0d738a8501b0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.0628 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "5b3010bf-ce21-49b0-9336-80216ad8568a")
 	)
-	(global_label "SCL"
+	(hierarchical_label "GPIO11"
 		(shape input)
-		(at 182.88 115.57 0)
-		(fields_autoplaced yes)
+		(at 143.51 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "7fa7c923-2f28-47e3-9eb4-65ff4d6bc753")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.3728 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "62bd2ce7-0288-4a19-a16f-7fbb9c9b4950")
 	)
-	(global_label "SDA"
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 114.3 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "662811c5-dbc9-4e8d-98c8-c0f14a59b7a3")
+	)
+	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 181.61 93.98 0)
-		(fields_autoplaced yes)
+		(at 143.51 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "8c759271-f5f4-4295-b43f-4fc0f2e22e55")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.2746 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "6a1164ac-5be8-44a4-bc99-b58f6dd805c2")
 	)
-	(global_label "XSHUT"
-		(shape input)
-		(at 148.59 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b4a15a9c-c176-47c2-bbdc-654527cfd05c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.6228 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "XSHUT"
-		(shape input)
-		(at 115.57 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c700cdb9-03f2-4309-bb8e-80f0ba371a81")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.6028 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape input)
-		(at 181.61 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d125f230-1dce-4b47-8b77-fb3e1250da57")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.1028 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "SDA"
+	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 115.57 93.98 0)
-		(fields_autoplaced yes)
+		(at 114.3 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "e85456df-a986-480a-93de-b34ca94861a1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.2346 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "8ef838f7-05f6-485b-b081-39c13a847bb1")
 	)
-	(global_label "SDA"
-		(shape bidirectional)
-		(at 118.11 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e8749608-aea3-4996-be44-294e1fed6059")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.7746 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape bidirectional)
-		(at 148.59 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f6a40164-581a-4139-b185-d7409b881796")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.2546 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "SCL"
+	(hierarchical_label "GPIO15"
 		(shape input)
-		(at 148.59 91.44 0)
-		(fields_autoplaced yes)
+		(at 115.57 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9995e5e9-f3cf-417d-8c90-de66fa1c840c")
+	)
+	(hierarchical_label "GPIO10"
+		(shape input)
+		(at 114.3 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a973b1bb-e2e9-404a-8e9f-399f023cb10c")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 181.61 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "f6f0b9ef-8169-470f-9744-ed9286c1d1d7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.0828 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+		(uuid "b0445403-142a-4ccb-a86c-3aeeaf7ad10c")
+	)
+	(hierarchical_label "GPIO17"
+		(shape input)
+		(at 115.57 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
+		(uuid "c0a879b8-236f-4520-9eef-130b95fe1748")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 143.51 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ce7db4e7-e3c1-4aa0-8648-a5d0984059f2")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 115.57 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9b197aa-5475-45fd-811a-b7bd5930e2ed")
+	)
+	(hierarchical_label "GPIO12"
+		(shape input)
+		(at 114.3 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec3f25d8-1c7b-4e2b-9fad-87fcca8cc9ad")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 143.51 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eecdba56-9b93-4880-bd4a-3e5afef3c43b")
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 115.57 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe1fcc98-942d-41b8-8d53-7da5618444c6")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 154.94 88.9 90)
+		(lib_id "power:+3V3")
+		(at 143.51 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1558,9 +1838,87 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "03e3318c-39c4-4017-8033-7d8729c68c0a")
-		(property "Reference" "#PWR041"
-			(at 161.29 88.9 0)
+		(uuid "0fe0e925-1e29-432a-b15e-724a12575396")
+		(property "Reference" "#PWR03"
+			(at 143.51 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 143.51 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 143.51 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3577965c-52cd-4baa-ac89-09531a226265")
+		)
+		(instances
+			(project "PCB_DELTA_Car"
+				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/b3a12824-6a17-4663-beb1-faaa30f27850"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 85.09 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "125631d7-e266-4b7a-925b-47135393bcc0")
+		(property "Reference" "#PWR056"
+			(at 110.49 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1571,18 +1929,17 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 88.8999 90)
+			(at 110.49 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 88.9 0)
+			(at 110.49 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1593,7 +1950,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 88.9 0)
+			(at 110.49 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1604,7 +1961,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 88.9 0)
+			(at 110.49 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1615,20 +1972,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "335395a6-c105-4b8b-b7b5-ad510e80f593")
+			(uuid "aa075bc9-69e5-446c-8c3a-bbb554e09294")
 		)
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/b3a12824-6a17-4663-beb1-faaa30f27850"
-					(reference "#PWR041")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 115.57 86.36 270)
+		(lib_id "power:+3V3")
+		(at 143.51 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1637,9 +1994,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "14dbb1d8-1dac-4666-a890-66721cb728f9")
-		(property "Reference" "#PWR014"
-			(at 111.76 86.36 0)
+		(uuid "2746e13a-4d71-49e2-986e-ffb08554674b")
+		(property "Reference" "#PWR02"
+			(at 143.51 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1649,19 +2006,18 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 119.38 86.3599 90)
+		(property "Value" "+3V3"
+			(at 143.51 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 86.36 0)
+			(at 143.51 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1672,7 +2028,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 86.36 0)
+			(at 143.51 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1682,8 +2038,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 115.57 86.36 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 143.51 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1694,20 +2050,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "b72028c1-4d5a-40ca-8b95-5672c2685cb7")
+			(uuid "03b8626d-29bb-4b4b-afff-48bca0e0b31b")
 		)
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/b3a12824-6a17-4663-beb1-faaa30f27850"
-					(reference "#PWR014")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x05_Pin")
-		(at 105.41 91.44 0)
+		(lib_id "power:GND")
+		(at 111.76 110.49 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1715,9 +2071,11 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1c01798c-7cf1-4c7b-9b6f-14b2fbdb9309")
-		(property "Reference" "J11"
-			(at 108.458 78.994 0)
+		(fields_autoplaced yes)
+		(uuid "373d7638-9bf2-4322-84cc-4c31e1cd021f")
+		(property "Reference" "#PWR057"
+			(at 111.76 104.14 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1726,8 +2084,8 @@
 				)
 			)
 		)
-		(property "Value" "TuF_1"
-			(at 108.458 81.534 0)
+		(property "Value" "GND"
+			(at 111.76 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1736,8 +2094,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical"
-			(at 105.41 91.44 0)
+		(property "Footprint" ""
+			(at 111.76 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1748,7 +2106,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 91.44 0)
+			(at 111.76 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1758,8 +2116,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 105.41 91.44 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1769,604 +2127,195 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "df6d386b-4ea5-41db-a60b-20c36c2ce516")
+		(pin "1"
+			(uuid "0bb5cc7d-061f-4e62-b4d3-ab2470fd1484")
 		)
-		(pin "2"
-			(uuid "bbaa9d1a-89ee-4495-b66c-d54526586b95")
+		(instances
+			(project "PCB_DELTA_Car"
+				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/b3a12824-6a17-4663-beb1-faaa30f27850"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 115.57 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bb9a13d-c9e0-4cb6-8750-1ee0be66c64c")
+		(property "Reference" "#PWR05"
+			(at 115.57 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 115.57 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 115.57 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af26bae5-aa2d-4e5b-9ace-3f567a7e7587")
+		)
+		(instances
+			(project "PCB_DELTA_Car"
+				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/b3a12824-6a17-4663-beb1-faaa30f27850"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Pin")
+		(at 123.19 92.71 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4dfd7c75-70a6-4433-b7c8-cf6fa94273f5")
+		(property "Reference" "J7"
+			(at 124.46 90.1699 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x06_Pin"
+			(at 124.46 92.7099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 123.19 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "37593795-282e-4971-806a-768ba4e1f123")
 		)
 		(pin "3"
-			(uuid "131ffa20-294c-4415-82e7-8b20bc0710a1")
+			(uuid "abbf80cc-8203-4241-8225-3ed8a1a2491f")
+		)
+		(pin "1"
+			(uuid "88067f8c-1cf2-40a0-aae5-e5323f374c9a")
 		)
 		(pin "5"
-			(uuid "7ba35a2c-639c-4e86-a1c1-d7467f6b37a4")
-		)
-		(pin "1"
-			(uuid "bbc3427b-3835-4e67-836a-520711b7020d")
-		)
-		(instances
-			(project "PCB_DELTA_Car"
-				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/b3a12824-6a17-4663-beb1-faaa30f27850"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 189.23 113.03 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d9076d5-67c2-4900-a835-576405fdc266")
-		(property "Reference" "#PWR046"
-			(at 195.58 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 193.04 113.0299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1b78ca2f-85d9-464a-b872-2f36926ab5bd")
-		)
-		(instances
-			(project "PCB_DELTA_Car"
-				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/b3a12824-6a17-4663-beb1-faaa30f27850"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 187.96 88.9 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3870797a-da38-435f-85a8-635e42553428")
-		(property "Reference" "#PWR045"
-			(at 194.31 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 191.77 88.8999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1b18ce6b-ba49-43be-96af-c638498343f7")
-		)
-		(instances
-			(project "PCB_DELTA_Car"
-				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/b3a12824-6a17-4663-beb1-faaa30f27850"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 182.88 110.49 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41f93b9d-585a-4bf6-a832-3f75de699381")
-		(property "Reference" "#PWR044"
-			(at 179.07 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 186.69 110.4899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 182.88 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9183a646-84b8-4b07-b4b7-dfe4657dd68a")
-		)
-		(instances
-			(project "PCB_DELTA_Car"
-				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/b3a12824-6a17-4663-beb1-faaa30f27850"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 123.19 110.49 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "473eed69-1f9e-486e-827c-bd5332afe488")
-		(property "Reference" "#PWR038"
-			(at 129.54 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 127 110.4899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "89ecb371-14b7-4d0a-91f3-126107f3e971")
-		)
-		(instances
-			(project "PCB_DELTA_Car"
-				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/b3a12824-6a17-4663-beb1-faaa30f27850"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 154.94 110.49 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ce5373f-b12d-413b-9692-33b64c7e9017")
-		(property "Reference" "#PWR042"
-			(at 161.29 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 158.75 110.4899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "45fa328e-ab60-405a-8ceb-912d7c74ae4d")
-		)
-		(instances
-			(project "PCB_DELTA_Car"
-				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/b3a12824-6a17-4663-beb1-faaa30f27850"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x05_Pin")
-		(at 138.43 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "55d5f283-c7e8-48a0-b5cd-5917f72f5c6f")
-		(property "Reference" "J13"
-			(at 140.208 78.994 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TuF_2"
-			(at 140.208 81.534 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical"
-			(at 138.43 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 138.43 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(uuid "f9bc3b79-d103-4432-bb21-35b4fa9c8e83")
 		)
 		(pin "4"
-			(uuid "2079c2bc-7ef3-44e2-93e3-19362dc583ac")
+			(uuid "04daf60a-ecf8-44b7-8c2d-18ea09b17873")
 		)
 		(pin "2"
-			(uuid "99fe0f81-5c9f-46e4-9568-ab6d9f5bf12c")
-		)
-		(pin "3"
-			(uuid "baed7963-e750-4f8c-b62f-f552f20237b7")
-		)
-		(pin "5"
-			(uuid "65b5c3d9-3094-435a-a7c9-a874401d0a27")
-		)
-		(pin "1"
-			(uuid "96671f72-8e4b-492b-8a39-f0f873397811")
+			(uuid "f4e60275-aa8e-4adc-ba99-33f947c3a690")
 		)
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/b3a12824-6a17-4663-beb1-faaa30f27850"
-					(reference "J13")
+					(reference "J7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x05_Pin")
-		(at 107.95 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5bafac75-032f-4e14-a9fe-786c7c6fa64f")
-		(property "Reference" "J12"
-			(at 108.966 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TuF_4"
-			(at 108.966 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical"
-			(at 107.95 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 107.95 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "0073c5ce-db0e-4cde-8380-90eba06503cf")
-		)
-		(pin "2"
-			(uuid "bd0133d8-bd65-424a-90ef-f025307563e4")
-		)
-		(pin "3"
-			(uuid "68a8efd7-5d88-4be1-ad7a-90df217e045b")
-		)
-		(pin "5"
-			(uuid "9352a879-eff5-4a16-9e2a-cf348809cc9f")
-		)
-		(pin "1"
-			(uuid "8179ced4-1a99-4f0c-8d10-6aa18f12d9f3")
-		)
-		(instances
-			(project "PCB_DELTA_Car"
-				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/b3a12824-6a17-4663-beb1-faaa30f27850"
-					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 118.11 107.95 270)
+		(lib_id "Connector:Conn_01x06_Pin")
+		(at 152.4 92.71 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2375,9 +2324,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ab8f34bd-f368-4b0d-ae30-0373eef365a7")
-		(property "Reference" "#PWR026"
-			(at 114.3 107.95 0)
+		(uuid "504ff161-3da7-4996-8317-384ff43e8d14")
+		(property "Reference" "J2"
+			(at 153.67 90.1699 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2385,335 +2334,12 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 121.92 107.9499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 107.95 0)
+		(property "Value" "Conn_01x06_Pin"
+			(at 153.67 92.7099 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 118.11 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5ec7a5e5-9a1d-4810-8f20-de9853bbc5d8")
-		)
-		(instances
-			(project "PCB_DELTA_Car"
-				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/b3a12824-6a17-4663-beb1-faaa30f27850"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 148.59 86.36 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4700d2f-d4fd-4b58-8591-1555a5e7a266")
-		(property "Reference" "#PWR039"
-			(at 144.78 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 152.4 86.3599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 148.59 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3a6027b9-4243-4264-a2e6-a4a20ba63d84")
-		)
-		(instances
-			(project "PCB_DELTA_Car"
-				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/b3a12824-6a17-4663-beb1-faaa30f27850"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x05_Pin")
-		(at 171.45 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bbc3298c-1408-4493-9ebd-8f23232c8609")
-		(property "Reference" "J15"
-			(at 173.482 78.994 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TuF_3"
-			(at 173.482 81.534 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical"
-			(at 171.45 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 171.45 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "208b4132-53ea-4459-a1cc-302d67f68ab6")
-		)
-		(pin "2"
-			(uuid "3260fb70-cfba-441b-a4ee-408ab5946820")
-		)
-		(pin "3"
-			(uuid "a30871b0-da80-470d-bcfe-0457bf7c5b1d")
-		)
-		(pin "5"
-			(uuid "ae6e98e3-82af-4e45-bf06-843b910556ff")
-		)
-		(pin "1"
-			(uuid "9fe20dde-00c5-4202-b356-8a9773ba4f75")
-		)
-		(instances
-			(project "PCB_DELTA_Car"
-				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/b3a12824-6a17-4663-beb1-faaa30f27850"
-					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 148.59 107.95 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2903069-1194-4df0-91b8-1929215f3bab")
-		(property "Reference" "#PWR040"
-			(at 144.78 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 152.4 107.9499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 148.59 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "83082274-b010-4b84-954d-22ea69f9b4de")
-		)
-		(instances
-			(project "PCB_DELTA_Car"
-				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/b3a12824-6a17-4663-beb1-faaa30f27850"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 121.92 88.9 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0f425bd-d7ce-4d19-affc-fbde881ed532")
-		(property "Reference" "#PWR027"
-			(at 128.27 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.73 88.8999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2724,7 +2350,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 88.9 0)
+			(at 152.4 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2735,7 +2361,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 88.9 0)
+			(at 152.4 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2745,8 +2371,101 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 88.9 0)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 152.4 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "9ddc1538-8c2e-4c24-90ab-19ea4e837f2e")
+		)
+		(pin "3"
+			(uuid "b866c469-c232-4106-b8fa-989257f4e1d7")
+		)
+		(pin "1"
+			(uuid "855cfc1e-3fe7-4048-8953-2b627461ccd5")
+		)
+		(pin "5"
+			(uuid "7ccbe394-bce9-4c5b-9642-204da15d6595")
+		)
+		(pin "4"
+			(uuid "52053d91-4f2e-4faf-8eea-079cab14ae94")
+		)
+		(pin "2"
+			(uuid "92b72aaf-2e96-4120-ab9b-4097fd95c69f")
+		)
+		(instances
+			(project "PCB_DELTA_Car"
+				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/b3a12824-6a17-4663-beb1-faaa30f27850"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 184.15 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d6c0ebc-a319-48a6-bf83-6a71f3825b34")
+		(property "Reference" "#PWR060"
+			(at 184.15 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 184.15 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 184.15 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2757,12 +2476,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "de90833f-7954-424c-9539-9571e82abe62")
+			(uuid "0ecf81ad-317d-4556-9017-98b83dc30455")
 		)
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/b3a12824-6a17-4663-beb1-faaa30f27850"
-					(reference "#PWR027")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -2770,7 +2489,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 172.72 113.03 0)
+		(at 171.45 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2778,9 +2497,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e838df45-f2d2-4bdd-9af5-37c27a0c121d")
+		(uuid "697d95ac-a377-477b-8df6-b5b4c839951f")
 		(property "Reference" "J16"
-			(at 174.752 102.616 0)
+			(at 173.482 93.726 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2790,7 +2509,7 @@
 			)
 		)
 		(property "Value" "Sens_Temp"
-			(at 174.752 105.156 0)
+			(at 173.482 96.266 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2800,7 +2519,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 113.03 0)
+			(at 171.45 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2811,7 +2530,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 113.03 0)
+			(at 171.45 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2822,7 +2541,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 172.72 113.03 0)
+			(at 171.45 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2833,16 +2552,16 @@
 			)
 		)
 		(pin "2"
-			(uuid "663e1047-a9e6-4429-83a6-1a8551e9b82c")
+			(uuid "45cecb97-2bd5-4e3f-9a2e-ff9ee6e8bd45")
 		)
 		(pin "1"
-			(uuid "4a34e230-f4e3-4495-a236-d5d4042f7971")
+			(uuid "43778172-7eb2-452a-9c5d-32f7f8dfb2aa")
 		)
 		(pin "4"
-			(uuid "7febcdfb-b39b-4703-b9d5-c4aaf2294a1c")
+			(uuid "4b1bab1d-c647-43f2-9ce9-63da00ad6453")
 		)
 		(pin "3"
-			(uuid "5c2e657b-be99-400a-8ee0-b00d87ab7209")
+			(uuid "8d948ede-a90c-45b5-af2c-a42f3158683c")
 		)
 		(instances
 			(project "PCB_DELTA_Car"
@@ -2854,8 +2573,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 181.61 86.36 270)
+		(lib_id "power:GND")
+		(at 189.23 101.6 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2864,9 +2583,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ef89ec94-8381-42fc-99c3-fa1ad36a7f41")
-		(property "Reference" "#PWR043"
-			(at 177.8 86.36 0)
+		(uuid "8107d0e7-d1fd-44f6-aec5-1d2af116e9d2")
+		(property "Reference" "#PWR061"
+			(at 189.23 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2876,19 +2595,18 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 185.42 86.3599 90)
+		(property "Value" "GND"
+			(at 189.23 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 86.36 0)
+			(at 189.23 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2899,7 +2617,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 86.36 0)
+			(at 189.23 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2909,8 +2627,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 181.61 86.36 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 189.23 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2921,20 +2639,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "d0c1db6f-fd61-48d3-a871-fe3f3c892f38")
+			(uuid "aeed6bd0-417d-4c14-9b60-fa8d270850fb")
 		)
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/b3a12824-6a17-4663-beb1-faaa30f27850"
-					(reference "#PWR043")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x05_Pin")
-		(at 138.43 113.03 0)
+		(lib_id "power:GND")
+		(at 139.7 85.09 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2942,9 +2660,11 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f4142a04-bd23-44a5-8681-8dd967919c63")
-		(property "Reference" "J14"
-			(at 140.462 101.092 0)
+		(fields_autoplaced yes)
+		(uuid "888a8126-54cf-4afa-9cc7-dfa490880bee")
+		(property "Reference" "#PWR058"
+			(at 139.7 78.74 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2953,8 +2673,8 @@
 				)
 			)
 		)
-		(property "Value" "TuF_5"
-			(at 140.462 103.632 0)
+		(property "Value" "GND"
+			(at 139.7 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2963,8 +2683,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical"
-			(at 138.43 113.03 0)
+		(property "Footprint" ""
+			(at 139.7 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2975,7 +2695,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 113.03 0)
+			(at 139.7 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2985,8 +2705,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 138.43 113.03 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2995,26 +2715,362 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "4"
-			(uuid "cf0fedc5-bdb5-4cdd-a5c5-5425e7d219bf")
-		)
-		(pin "2"
-			(uuid "c3407604-19b6-40dc-b28b-77b5af170034")
-		)
-		(pin "3"
-			(uuid "59d92d5e-d1b7-4a9f-981b-121f2dcdd5db")
-		)
-		(pin "5"
-			(uuid "3e368d4f-e0ad-494f-8020-73e5b1d30185")
 		)
 		(pin "1"
-			(uuid "9a8481ac-f13c-4ef8-b03c-721ae9249c41")
+			(uuid "1010c30b-2383-4229-8e3a-d9dc1e3c9ea3")
 		)
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/b3a12824-6a17-4663-beb1-faaa30f27850"
-					(reference "J14")
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Pin")
+		(at 124.46 118.11 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8df367eb-bffc-47f0-8f11-a84d775ede5c")
+		(property "Reference" "J8"
+			(at 125.73 115.5699 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x06_Pin"
+			(at 125.73 118.1099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 124.46 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "9461ec96-f471-44ec-b690-6d2d0166084b")
+		)
+		(pin "3"
+			(uuid "55c11f43-0468-47f5-b17d-dffe95c6d168")
+		)
+		(pin "1"
+			(uuid "1f424ed6-028a-4336-90ac-20824faa61bf")
+		)
+		(pin "5"
+			(uuid "d2dbd965-7ef3-454f-8b7e-ddb7112016bd")
+		)
+		(pin "4"
+			(uuid "4750a68d-b3e2-47cb-abd2-5a634c43db9d")
+		)
+		(pin "2"
+			(uuid "6639798e-30a0-4d47-8a2c-b318e9a4cf5c")
+		)
+		(instances
+			(project "PCB_DELTA_Car"
+				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/b3a12824-6a17-4663-beb1-faaa30f27850"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 114.3 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb75d6a7-ce19-44bb-87d4-274e8cb5ff32")
+		(property "Reference" "#PWR04"
+			(at 114.3 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 114.3 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 114.3 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "852f4693-b1b4-4e22-b3e8-303b29eacefe")
+		)
+		(instances
+			(project "PCB_DELTA_Car"
+				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/b3a12824-6a17-4663-beb1-faaa30f27850"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 140.97 110.49 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf5615c9-5114-49fe-b730-0e7369337dc6")
+		(property "Reference" "#PWR059"
+			(at 140.97 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d322ed47-82df-4b66-acb7-698c470da468")
+		)
+		(instances
+			(project "PCB_DELTA_Car"
+				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/b3a12824-6a17-4663-beb1-faaa30f27850"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Pin")
+		(at 152.4 118.11 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e091ad15-2af1-452b-98fc-ea8ccf8760a1")
+		(property "Reference" "J3"
+			(at 153.67 115.5699 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x06_Pin"
+			(at 153.67 118.1099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 152.4 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "44a957b2-3062-4f89-8ae3-3e8b17d5b6bd")
+		)
+		(pin "3"
+			(uuid "08cf16e7-4d47-4be7-af01-fdd0cfc4d274")
+		)
+		(pin "1"
+			(uuid "24a21138-12ae-41c3-90cb-91a19895e3b2")
+		)
+		(pin "5"
+			(uuid "b88202a9-d1f2-4531-8417-852a8ff5f4d7")
+		)
+		(pin "4"
+			(uuid "a0be354f-bb83-4e1b-9abd-197910b0269d")
+		)
+		(pin "2"
+			(uuid "c5c06f4a-e116-48b3-9965-07913be73548")
+		)
+		(instances
+			(project "PCB_DELTA_Car"
+				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/b3a12824-6a17-4663-beb1-faaa30f27850"
+					(reference "J3")
 					(unit 1)
 				)
 			)
