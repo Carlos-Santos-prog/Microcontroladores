@@ -5,6 +5,30 @@
 	(uuid "b467d2d6-eb1b-4831-a96e-cdf49a56527d")
 	(paper "A4")
 	(lib_symbols)
+	(rectangle
+		(start 187.325 52.07)
+		(end 259.08 78.74)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0dbfd34c-e041-4006-ad09-c31e8941f93f")
+	)
+	(text "Eto e tentativo, \nhay que analizarlo bien"
+		(exclude_from_sim no)
+		(at 235.458 65.532 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "869c8688-1d56-449c-81f1-49ff41ba56c5")
+	)
 	(wire
 		(pts
 			(xy 125.73 46.99) (xy 133.35 46.99)
@@ -77,6 +101,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 113.03) (xy 133.35 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b94d5d7-4982-422a-a960-83c34ef04243")
+	)
+	(wire
+		(pts
 			(xy 127 75.565) (xy 133.35 75.565)
 		)
 		(stroke
@@ -87,16 +121,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 73.025) (xy 189.23 73.025)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63491823-dcd5-4185-a886-203a1c0316f1")
-	)
-	(wire
-		(pts
 			(xy 127 73.025) (xy 133.35 73.025)
 		)
 		(stroke
@@ -104,16 +128,6 @@
 			(type default)
 		)
 		(uuid "656b726d-e532-4eee-87c3-16cc52c12a42")
-	)
-	(wire
-		(pts
-			(xy 181.61 59.055) (xy 189.23 59.055)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78e999f6-62ce-4af3-b115-67423ae9c0ee")
 	)
 	(wire
 		(pts
@@ -364,7 +378,7 @@
 			)
 		)
 		(pin "GPIO2" input
-			(at 143.51 124.46 270)
+			(at 133.35 113.03 180)
 			(uuid "8880da18-f075-44ac-a821-2bef44be77c4")
 			(effects
 				(font
@@ -758,7 +772,7 @@
 	)
 	(sheet
 		(at 111.76 99.06)
-		(size 15.24 14.605)
+		(size 15.24 15.875)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -783,7 +797,7 @@
 			)
 		)
 		(property "Sheetfile" "LEDs_out.kicad_sch"
-			(at 100.584 114.808 0)
+			(at 100.584 116.078 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -826,6 +840,16 @@
 		(pin "Led_F_R" input
 			(at 127 109.855 0)
 			(uuid "6264ebd9-cb06-4845-98b1-1e2d61e7aed4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Led_white" input
+			(at 127 113.03 0)
+			(uuid "e052f399-dbd5-4d5f-b57d-c27e0d16e000")
 			(effects
 				(font
 					(size 1.27 1.27)
