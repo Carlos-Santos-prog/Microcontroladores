@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(rectangle
-		(start 187.325 52.07)
+		(start 187.325 51.435)
 		(end 259.08 78.74)
 		(stroke
 			(width 0)
@@ -387,16 +387,6 @@
 				(justify left)
 			)
 		)
-		(pin "GPIO3" input
-			(at 140.97 124.46 270)
-			(uuid "ba27cf1a-bf95-47c6-ad5f-d2e875c4a0dc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "GPIO4" input
 			(at 133.35 102.235 180)
 			(uuid "ecd4c159-1817-4154-a62c-cec3f2158c58")
@@ -430,16 +420,6 @@
 		(pin "GPIO7" input
 			(at 133.35 109.855 180)
 			(uuid "f246fd4f-9f46-4862-9896-547771763fbc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO8" input
-			(at 147.32 124.46 270)
-			(uuid "3a7f452e-5bcb-4bd2-b439-8e397e07dfbf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -490,16 +470,6 @@
 		(pin "GPIO13" input
 			(at 133.35 70.485 180)
 			(uuid "3eee0a82-a3c4-4f4c-8d36-9eb3118ba573")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO14" input
-			(at 157.48 124.46 270)
-			(uuid "92358212-5fb2-4274-991f-c8ca4f527b94")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -595,86 +565,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "GPIO39" input
-			(at 153.67 124.46 270)
-			(uuid "ea9a4497-d0b4-4285-8812-968aca467b22")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO40" input
-			(at 161.29 124.46 270)
-			(uuid "f8dc2d67-b2ac-4d63-88e8-b88ac98c89e8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO41" input
-			(at 163.83 124.46 270)
-			(uuid "8f547ec8-52cf-4e8d-8cc0-864c8fac1343")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO42" input
-			(at 166.37 124.46 270)
-			(uuid "9b96042f-bbbb-419b-a8e2-4ba0f7c5fdee")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO43" input
-			(at 168.91 124.46 270)
-			(uuid "7ab40332-face-45d8-8e3c-90e9e15d393d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO44" input
-			(at 171.45 124.46 270)
-			(uuid "c1d993ed-6a21-4ec6-ba92-34a6140a6d07")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO45" input
-			(at 173.99 124.46 270)
-			(uuid "3033cacd-cd85-494f-9c8d-189a52d72268")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO46" input
-			(at 151.13 124.46 270)
-			(uuid "99160804-6aea-422b-a14a-d8ce8943a413")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "GPIO47" input

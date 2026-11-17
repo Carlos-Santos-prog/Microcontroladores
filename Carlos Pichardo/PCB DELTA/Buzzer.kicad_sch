@@ -322,6 +322,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:1N4148W"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148W"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-123"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?123*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1N4148W_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148W_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_BJT:MMBT2222A"
 			(pin_names
 				(offset 0)
@@ -820,90 +1007,184 @@
 			(embedded_fonts no)
 		)
 	)
-	(wire
-		(pts
-			(xy 148.59 92.71) (xy 148.59 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15f0f015-0296-4c02-862d-65e476148c0b")
+	(junction
+		(at 134.62 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "098fcb62-707f-464a-8fb0-6894df5a31c1")
+	)
+	(junction
+		(at 123.19 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c3e6853-873d-4eaa-9bf3-b9b7ce04c4e7")
+	)
+	(junction
+		(at 134.62 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae89b53b-d65b-488b-8070-2fe3c96ec033")
+	)
+	(junction
+		(at 134.62 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0d3b5db-3020-4312-beca-10e79da2349a")
 	)
 	(wire
 		(pts
-			(xy 148.59 80.01) (xy 148.59 82.55)
+			(xy 129.54 74.93) (xy 134.62 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6c43109f-7d53-47ec-a1b3-55ea8d9259a7")
+		(uuid "16fd4230-07c1-46dc-9d49-8c13a22f1be4")
 	)
 	(wire
 		(pts
-			(xy 138.43 87.63) (xy 140.97 87.63)
+			(xy 129.54 86.36) (xy 134.62 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a25a8c6b-75c1-4b31-8e05-1e04b3be9a94")
+		(uuid "1d020614-7f21-4226-8fdb-11c73289db20")
 	)
 	(wire
 		(pts
-			(xy 143.51 72.39) (xy 143.51 74.93)
+			(xy 134.62 97.79) (xy 134.62 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a992cef1-ffda-4611-a65d-2e9401236e40")
+		(uuid "6e503c80-cea6-4bf9-8c57-f60936e2e60a")
 	)
 	(wire
 		(pts
-			(xy 143.51 74.93) (xy 148.59 74.93)
+			(xy 119.38 92.71) (xy 123.19 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc3a5b11-4678-4933-86ed-c67cc6663b4c")
+		(uuid "89ac438e-37bf-47ee-99a5-ad5afb789a3a")
 	)
 	(wire
 		(pts
-			(xy 148.59 93.98) (xy 152.4 93.98)
+			(xy 104.14 92.71) (xy 111.76 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d5c6c917-dc0e-453d-8002-3a07f4141f66")
+		(uuid "91783655-caab-4021-9ba5-7454dce6f896")
 	)
 	(wire
 		(pts
-			(xy 128.27 87.63) (xy 130.81 87.63)
+			(xy 134.62 86.36) (xy 134.62 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f446b4fe-a6cd-42a4-80d5-b81f0028e839")
+		(uuid "a7a487d7-9c46-44ef-b311-dc6053714d49")
+	)
+	(wire
+		(pts
+			(xy 129.54 76.2) (xy 129.54 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a879d332-6662-4a8b-b5c9-f37e6fc75fa4")
+	)
+	(wire
+		(pts
+			(xy 123.19 100.33) (xy 134.62 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa45c4ed-6d97-486d-80fa-5c94abada24b")
+	)
+	(wire
+		(pts
+			(xy 134.62 100.33) (xy 134.62 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9e43c32-b518-4705-be1d-ab289d89dec3")
+	)
+	(wire
+		(pts
+			(xy 123.19 92.71) (xy 127 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1aefccd-0ad1-4be9-997e-9da194ab08bb")
+	)
+	(wire
+		(pts
+			(xy 134.62 74.93) (xy 134.62 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d85c4c7b-5b63-4cb3-a613-0faae5c75f5f")
+	)
+	(wire
+		(pts
+			(xy 134.62 68.58) (xy 134.62 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd264531-6ff0-4141-bcac-d8163bc4863a")
+	)
+	(wire
+		(pts
+			(xy 134.62 83.82) (xy 134.62 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea066ebe-e960-45fa-9140-7e6158c5a0c5")
+	)
+	(wire
+		(pts
+			(xy 129.54 83.82) (xy 129.54 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff672252-b411-4715-9a19-c810917aae9c")
 	)
 	(hierarchical_label "Buzzer"
 		(shape input)
-		(at 128.27 87.63 180)
+		(at 104.14 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "d499e4c0-1d2a-4e16-94eb-267fdc9b1e5a")
+		(uuid "daa7cf65-93a2-4e81-befd-7c56186e0e79")
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 134.62 87.63 270)
+		(lib_id "power:GND")
+		(at 134.62 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -911,9 +1192,11 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "32475734-ac85-4824-83a1-34c1cf986e15")
-		(property "Reference" "R1"
-			(at 134.62 82.804 90)
+		(fields_autoplaced yes)
+		(uuid "1c1a03d9-ed22-4cd0-a73a-711fb1f82328")
+		(property "Reference" "#PWR060"
+			(at 134.62 109.22 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -922,8 +1205,8 @@
 				)
 			)
 		)
-		(property "Value" "330"
-			(at 134.62 85.344 90)
+		(property "Value" "GND"
+			(at 134.62 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -932,8 +1215,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 134.62 85.852 90)
+		(property "Footprint" ""
+			(at 134.62 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -944,7 +1227,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 87.63 0)
+			(at 134.62 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -954,8 +1237,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 134.62 87.63 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -966,15 +1249,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e3ff1ae3-867c-44a4-a238-73a00ef7e8be")
-		)
-		(pin "2"
-			(uuid "e1c344d2-1ba7-4e33-8550-5dd3e73e635a")
+			(uuid "66b9c8f3-8520-4c35-95ba-dd44099c1f07")
 		)
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/512468a4-9cd8-48cf-8f31-5ba8393c146a"
-					(reference "R1")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -982,7 +1262,7 @@
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
-		(at 151.13 77.47 0)
+		(at 137.16 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -991,9 +1271,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8bc39370-4ccf-40ee-a990-d44d0d347ca6")
+		(uuid "34a8c597-6645-442f-92ab-fbfbcbf5a17c")
 		(property "Reference" "BZ1"
-			(at 154.94 76.1999 0)
+			(at 140.97 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1004,7 +1284,7 @@
 			)
 		)
 		(property "Value" "Buzzer"
-			(at 154.94 78.7399 0)
+			(at 140.97 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1015,7 +1295,7 @@
 			)
 		)
 		(property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
-			(at 150.495 74.93 90)
+			(at 136.525 78.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1026,7 +1306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 150.495 74.93 90)
+			(at 136.525 78.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1037,7 +1317,7 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
-			(at 151.13 77.47 0)
+			(at 137.16 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1047,11 +1327,11 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "c8a4eb06-e284-42a8-807f-25b5796df4e4")
-		)
 		(pin "2"
-			(uuid "4b7e0ced-6de6-4da9-817a-34f4b85b0ba1")
+			(uuid "ab01540b-5790-4e3b-8de7-cdb568df760f")
+		)
+		(pin "1"
+			(uuid "c7bcad67-76bd-4013-9e36-50a06132db9e")
 		)
 		(instances
 			(project "PCB_DELTA_Car"
@@ -1063,8 +1343,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 152.4 93.98 90)
+		(lib_id "Diode:1N4148W")
+		(at 129.54 80.01 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1072,10 +1352,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a21b18b5-9c93-4d2f-911e-fce6d0a8d5e3")
-		(property "Reference" "#PWR024"
-			(at 158.75 93.98 0)
+		(uuid "355cfa98-6b64-4cb7-910e-c83af3575c6b")
+		(property "Reference" "D1"
+			(at 123.698 78.486 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 132.08 81.2799 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 125.095 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1085,19 +1387,99 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 156.21 93.9799 90)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 129.54 80.01 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 152.4 93.98 0)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 129.54 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 129.54 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 129.54 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e5c5e769-6089-4dc1-93a1-c6b231261b05")
+		)
+		(pin "1"
+			(uuid "97e13b38-e062-4c55-bae4-7aa59b9034bb")
+		)
+		(instances
+			(project "PCB_DELTA_Car"
+				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/512468a4-9cd8-48cf-8f31-5ba8393c146a"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 92.71 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41e68476-9578-4d75-b0dc-ec259712dc25")
+		(property "Reference" "R1"
+			(at 115.57 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 115.57 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 115.57 94.488 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1108,7 +1490,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 93.98 0)
+			(at 115.57 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1118,8 +1500,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 93.98 0)
+		(property "Description" "Resistor"
+			(at 115.57 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1130,20 +1512,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "f351a38e-7791-4580-8537-b97daaaf459f")
+			(uuid "c954f558-3534-40a5-8a19-69647503d29e")
+		)
+		(pin "2"
+			(uuid "f9ee6e77-3fd0-4294-921d-bae5e1b1cb49")
 		)
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/512468a4-9cd8-48cf-8f31-5ba8393c146a"
-					(reference "#PWR024")
+					(reference "R1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MMBT2222A")
-		(at 146.05 87.63 0)
+		(lib_id "Device:R")
+		(at 123.19 96.52 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1152,9 +1537,169 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bce55dcd-0cb5-4b1a-9398-330a8c0c74c2")
+		(uuid "615622d9-64f6-4336-98d5-d6b5b460a4b8")
+		(property "Reference" "R?"
+			(at 125.73 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 125.73 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 124.968 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 123.19 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "21c082b1-855c-4795-96a4-fbf74d3b003b")
+		)
+		(pin "2"
+			(uuid "00edbe5a-1760-433d-9579-6306e7f5a215")
+		)
+		(instances
+			(project "PCB_DELTA_Car"
+				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/512468a4-9cd8-48cf-8f31-5ba8393c146a"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 134.62 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8df1f61c-63d2-4fe1-9aa0-601056b4fd54")
+		(property "Reference" "#PWR059"
+			(at 134.62 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 134.62 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 134.62 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d778223e-7458-4b1c-9f5b-72e8efeb4efc")
+		)
+		(instances
+			(project "PCB_DELTA_Car"
+				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/512468a4-9cd8-48cf-8f31-5ba8393c146a"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT2222A")
+		(at 132.08 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b11a4b51-c170-4029-9b23-9d454c2f7474")
 		(property "Reference" "Q1"
-			(at 151.13 86.3599 0)
+			(at 137.16 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1165,7 +1710,7 @@
 			)
 		)
 		(property "Value" "MMBT2222A"
-			(at 151.13 88.8999 0)
+			(at 137.16 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1176,7 +1721,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 151.13 89.535 0)
+			(at 137.16 94.615 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1189,7 +1734,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
-			(at 146.05 87.63 0)
+			(at 132.08 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1201,7 +1746,7 @@
 			)
 		)
 		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
-			(at 146.05 87.63 0)
+			(at 132.08 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1212,7 +1757,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 146.05 87.63 0)
+			(at 132.08 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1223,7 +1768,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 146.05 87.63 0)
+			(at 132.08 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1233,97 +1778,19 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "2c20a399-a277-49bd-9f89-299cf96a8f0c")
+		(pin "3"
+			(uuid "bc451119-878c-43e0-839f-a7ef570f4373")
 		)
 		(pin "1"
-			(uuid "7cacc630-e93b-4d8b-99bc-fb2c1f36260e")
+			(uuid "97e4341d-f0dd-4191-a975-f5a6b2f6eac2")
 		)
-		(pin "3"
-			(uuid "91e8aa69-ece7-48db-a385-92882d5d56fa")
+		(pin "2"
+			(uuid "25163df0-59a1-446b-a319-e9b6ef139362")
 		)
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/512468a4-9cd8-48cf-8f31-5ba8393c146a"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 143.51 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6c3b55f-9662-49ca-a38f-6a7f7e65d3c1")
-		(property "Reference" "#PWR023"
-			(at 143.51 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 143.51 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 143.51 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d2efb180-26e3-4ece-9c86-8083484fac58")
-		)
-		(instances
-			(project "PCB_DELTA_Car"
-				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/512468a4-9cd8-48cf-8f31-5ba8393c146a"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)

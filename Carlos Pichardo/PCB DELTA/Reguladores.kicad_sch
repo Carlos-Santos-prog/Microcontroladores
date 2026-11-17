@@ -1913,7 +1913,7 @@
 	)
 	(rectangle
 		(start 76.2 39.37)
-		(end 177.8 122.555)
+		(end 184.15 122.555)
 		(stroke
 			(width 0)
 			(type default)
@@ -2101,7 +2101,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 96.52) (xy 166.37 96.52)
+			(xy 161.29 96.52) (xy 165.1 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2168,6 +2168,16 @@
 			(type default)
 		)
 		(uuid "4728061c-592c-4674-92fb-2cbb3c4ee2f4")
+	)
+	(wire
+		(pts
+			(xy 172.72 96.52) (xy 176.53 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4783dcee-3e31-4d10-8793-025b519ca7c9")
 	)
 	(wire
 		(pts
@@ -2524,6 +2534,86 @@
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/8663d96f-f0fb-47b8-a659-170d99df3749"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 168.91 96.52 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "089de722-46cf-4889-b6dd-ec0f823558a4")
+		(property "Reference" "D?"
+			(at 169.2275 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 169.2275 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 168.91 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 168.91 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "83e458cf-1e8b-4b5b-abe6-53f3f79cf62f")
+		)
+		(pin "2"
+			(uuid "6f16e2a3-f4ea-4ecc-96ac-3f8dc21fc182")
+		)
+		(instances
+			(project "PCB_DELTA_Car"
+				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/8663d96f-f0fb-47b8-a659-170d99df3749"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -3653,7 +3743,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 166.37 96.52 270)
+		(at 176.53 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3664,7 +3754,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e1bff4f-b22e-490e-8f59-516479b19832")
 		(property "Reference" "#PWR010"
-			(at 162.56 96.52 0)
+			(at 176.53 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3675,7 +3765,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 170.18 96.5199 90)
+			(at 179.07 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3686,7 +3776,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 96.52 0)
+			(at 176.53 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3697,7 +3787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 96.52 0)
+			(at 176.53 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3708,7 +3798,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 166.37 96.52 0)
+			(at 176.53 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3928,7 +4018,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 96.012 68.834 0)
+			(at 108.204 69.596 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -300,6 +300,184 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:ESD9B3.3ST5G"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESD9B3.3ST5G"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-923"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode TVS ESD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?923*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ESD9B3.3ST5G_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ESD9B3.3ST5G_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Espressif:ESP32-S3-WROOM-1"
 			(pin_names
 				(offset 1.016)
@@ -1534,29 +1712,83 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 147.32 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "081df8ee-c792-411d-be2c-7e2fdd750b92")
+	(text_box "RESET \n"
+		(exclude_from_sim no)
+		(at 236.22 15.24 0)
+		(size 41.91 43.18)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a1deb7af-aa35-494f-9b62-6ffc9e51f020")
+	)
+	(text_box "BOOT\n"
+		(exclude_from_sim no)
+		(at 189.23 20.32 0)
+		(size 45.72 26.67)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c92fea88-f713-4781-b4d7-a46f440cab32")
 	)
 	(junction
-		(at 147.32 36.83)
+		(at 266.7 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3a3b2094-9718-48c0-b31a-ffa0f00048bc")
+		(uuid "311dae45-9daf-43a7-8219-85ab7b39f3c1")
 	)
 	(junction
-		(at 158.75 36.83)
+		(at 217.17 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8594a181-9493-4c44-9f67-c1d3ea5a3a24")
+		(uuid "4e48b8c9-9f35-4747-8c82-5f41c48b0bee")
 	)
 	(junction
-		(at 140.97 73.66)
+		(at 256.54 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ed10506d-52ec-483c-8c15-33fb0413e38e")
+		(uuid "be3fda98-41e0-494c-9b0b-7824ea554b7e")
+	)
+	(wire
+		(pts
+			(xy 196.85 30.48) (xy 200.66 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "105d541f-bc28-439f-abc5-8166e95d5dea")
+	)
+	(wire
+		(pts
+			(xy 217.17 30.48) (xy 217.17 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "106d3da2-1903-45ab-a17c-7a1a4db28e8a")
 	)
 	(wire
 		(pts
@@ -1580,23 +1812,43 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 73.66) (xy 154.94 73.66)
+			(xy 242.57 35.56) (xy 241.3 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25d8dffc-184d-4774-a7f1-5960ae9ca8aa")
+		(uuid "1c8a6f10-fbe5-4413-b1c3-89062ee64edb")
 	)
 	(wire
 		(pts
-			(xy 147.32 26.67) (xy 147.32 27.94)
+			(xy 217.17 30.48) (xy 223.52 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e2565d9-08ee-4680-8754-ea5a74369114")
+		(uuid "21ccd2d7-355f-49a5-829d-c7798a4135ec")
+	)
+	(wire
+		(pts
+			(xy 256.54 35.56) (xy 256.54 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28e4ee40-d759-4c2b-b087-0172d1201533")
+	)
+	(wire
+		(pts
+			(xy 266.7 38.1) (xy 266.7 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3626f5a6-ad39-447e-977f-5157db1c44d8")
 	)
 	(wire
 		(pts
@@ -1620,16 +1872,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 45.72) (xy 158.75 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a1e579a-0524-46cd-bdcd-5703cbb7a916")
-	)
-	(wire
-		(pts
 			(xy 191.77 148.59) (xy 186.69 148.59)
 		)
 		(stroke
@@ -1640,13 +1882,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 35.56) (xy 147.32 36.83)
+			(xy 241.3 35.56) (xy 241.3 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "555df171-7fd2-456e-bccc-335eef097aca")
+		(uuid "506b1060-4d39-4f6c-a8cd-010a10f378bb")
 	)
 	(wire
 		(pts
@@ -1660,7 +1902,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 73.66) (xy 140.97 80.01)
+			(xy 140.97 68.58) (xy 140.97 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1690,6 +1932,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 39.37) (xy 217.17 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6873667c-c338-4925-b417-0bba7696356c")
+	)
+	(wire
+		(pts
 			(xy 90.17 156.21) (xy 95.25 156.21)
 		)
 		(stroke
@@ -1697,36 +1949,6 @@
 			(type default)
 		)
 		(uuid "6ce0d864-da4c-4929-ad56-424dd2d862cd")
-	)
-	(wire
-		(pts
-			(xy 130.81 45.72) (xy 130.81 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d239662-35b4-4d05-9341-6eafe11cba32")
-	)
-	(wire
-		(pts
-			(xy 147.32 48.26) (xy 147.32 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f106272-b9e0-4b47-a1ef-685876557d7d")
-	)
-	(wire
-		(pts
-			(xy 158.75 36.83) (xy 163.83 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73367c5e-9907-4a8d-9013-d2e1401531b3")
 	)
 	(wire
 		(pts
@@ -1770,6 +1992,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 35.56) (xy 256.54 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e4ed56-78d2-449a-beec-64a62d84e5e9")
+	)
+	(wire
+		(pts
 			(xy 191.77 138.43) (xy 186.69 138.43)
 		)
 		(stroke
@@ -1780,23 +2012,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 36.83) (xy 147.32 36.83)
+			(xy 256.54 24.13) (xy 256.54 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8baf3c60-7ce0-4285-8af3-b2526e10705f")
-	)
-	(wire
-		(pts
-			(xy 158.75 38.1) (xy 158.75 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90c3ac86-6f56-431b-9e14-a46648b477dd")
+		(uuid "94240f74-68df-4607-a31a-c0376246fdf5")
 	)
 	(wire
 		(pts
@@ -1807,16 +2029,6 @@
 			(type default)
 		)
 		(uuid "97471499-85a2-4bdd-8593-89a840e02fcc")
-	)
-	(wire
-		(pts
-			(xy 158.75 48.26) (xy 147.32 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97c344b6-09d8-4634-8130-3f38b652476a")
 	)
 	(wire
 		(pts
@@ -1850,16 +2062,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 68.58) (xy 140.97 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f8b50a9-3d6c-49c0-87a0-51537dbe3e6c")
-	)
-	(wire
-		(pts
 			(xy 191.77 140.97) (xy 186.69 140.97)
 		)
 		(stroke
@@ -1867,16 +2069,6 @@
 			(type default)
 		)
 		(uuid "a0a46014-5736-47e6-adeb-dd362fa27578")
-	)
-	(wire
-		(pts
-			(xy 147.32 46.99) (xy 147.32 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0d15976-f3ee-4927-a4c9-785e883c2e2b")
 	)
 	(wire
 		(pts
@@ -1910,6 +2102,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 45.72) (xy 266.7 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5ea792b-e5e5-4398-8a3c-157573b610ed")
+	)
+	(wire
+		(pts
 			(xy 191.77 107.95) (xy 186.69 107.95)
 		)
 		(stroke
@@ -1917,6 +2119,16 @@
 			(type default)
 		)
 		(uuid "b7fcd887-3bed-4428-a0d7-7f2a76650bbf")
+	)
+	(wire
+		(pts
+			(xy 256.54 45.72) (xy 256.54 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9b04ea4-4075-4111-8a05-20bc2ee3cd9f")
 	)
 	(wire
 		(pts
@@ -1960,16 +2172,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 30.48) (xy 130.81 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb74b98c-d58c-4a7f-a45a-9220cfb0f3ad")
-	)
-	(wire
-		(pts
 			(xy 191.77 113.03) (xy 186.69 113.03)
 		)
 		(stroke
@@ -1990,13 +2192,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 73.66) (xy 143.51 73.66)
+			(xy 256.54 35.56) (xy 273.05 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d725ad7e-f3af-46a4-8ad9-bce7e83f2d14")
+		(uuid "d0dc24e5-d859-4e6f-bf7a-0b8b8df945be")
 	)
 	(wire
 		(pts
@@ -2017,6 +2219,16 @@
 			(type default)
 		)
 		(uuid "dabd0bf8-04df-486f-bcb9-b96719fa344f")
+	)
+	(wire
+		(pts
+			(xy 256.54 35.56) (xy 256.54 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e761aaff-4504-4b9f-87f2-04b4becf34ee")
 	)
 	(wire
 		(pts
@@ -2060,6 +2272,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 40.64) (xy 196.85 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2478276-020e-4e63-ac6d-89e1760fcbad")
+	)
+	(wire
+		(pts
 			(xy 91.44 107.95) (xy 95.25 107.95)
 		)
 		(stroke
@@ -2067,6 +2289,16 @@
 			(type default)
 		)
 		(uuid "f6919ff9-b540-48fd-93f6-a8861c153cce")
+	)
+	(wire
+		(pts
+			(xy 210.82 30.48) (xy 217.17 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb7f9006-3677-4aa3-9391-b886a0bb52a2")
 	)
 	(wire
 		(pts
@@ -2087,6 +2319,17 @@
 			(type default)
 		)
 		(uuid "fffb2865-0ebf-490a-9539-209808ecaa87")
+	)
+	(hierarchical_label "GPIO0"
+		(shape input)
+		(at 223.52 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c73158d-877c-4038-abbd-74341749caf0")
 	)
 	(hierarchical_label "GPIO1"
 		(shape input)
@@ -2297,6 +2540,17 @@
 		)
 		(uuid "75355e14-50be-4500-9b98-5f3bc524c1e7")
 	)
+	(hierarchical_label "EN"
+		(shape input)
+		(at 273.05 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d8cca8a-5008-4ae1-85fc-74b71d7181e6")
+	)
 	(hierarchical_label "GPIO5"
 		(shape input)
 		(at 191.77 113.03 0)
@@ -2451,28 +2705,6 @@
 		)
 		(uuid "d2e3c349-d043-4326-8a61-0dd679704229")
 	)
-	(hierarchical_label "EN"
-		(shape input)
-		(at 163.83 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d3a5c64a-2fbc-401c-9a05-819c8d0c9e3b")
-	)
-	(hierarchical_label "GPIO0"
-		(shape input)
-		(at 130.81 30.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e293ab81-858c-4ae5-84e8-13bf1e0b7271")
-	)
 	(hierarchical_label "GPIO13"
 		(shape input)
 		(at 191.77 133.35 0)
@@ -2518,8 +2750,8 @@
 		(uuid "fe7dd574-07c8-4dbf-9681-3230bbc9d63d")
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 130.81 40.64 90)
+		(lib_id "Device:R")
+		(at 256.54 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2528,31 +2760,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "03617668-526c-445d-b214-3ed172f3e6fc")
-		(property "Reference" "SW2"
-			(at 132.08 39.3699 90)
+		(uuid "1281d39a-c59f-4b63-95e2-ffcebdc1078d")
+		(property "Reference" "R10"
+			(at 259.08 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_SPST"
-			(at 132.08 41.9099 90)
+		(property "Value" "10K"
+			(at 259.08 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
-			(at 130.81 40.64 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 254.762 29.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2563,7 +2795,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 40.64 0)
+			(at 256.54 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2573,8 +2805,8 @@
 				)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 130.81 40.64 0)
+		(property "Description" "Resistor"
+			(at 256.54 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2583,17 +2815,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "7ac4904f-62da-462f-b9bd-8ebe9daba766")
 		)
 		(pin "1"
-			(uuid "ed9e3de3-c781-4abd-95ee-93e0103456d0")
+			(uuid "a97992e1-3819-4a12-9ea9-d7588dcdd4c8")
+		)
+		(pin "2"
+			(uuid "ca205377-5271-4df0-8776-72f0c788baea")
 		)
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/2a9a73de-bc9d-49ad-b06b-84204940ff5e"
-					(reference "SW2")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -2601,7 +2833,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 49.53 0)
+		(at 241.3 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2610,9 +2842,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "24b1f2a6-0b9b-420b-aeed-71522cdb23fb")
-		(property "Reference" "#PWR036"
-			(at 147.32 55.88 0)
+		(uuid "128de26b-f9bb-4f82-a6ea-aa544f6dd0b4")
+		(property "Reference" "#PWR069"
+			(at 241.3 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2623,17 +2855,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 54.61 0)
+			(at 243.84 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 49.53 0)
+			(at 241.3 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2644,7 +2877,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 49.53 0)
+			(at 241.3 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2655,7 +2888,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 49.53 0)
+			(at 241.3 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2666,12 +2899,94 @@
 			)
 		)
 		(pin "1"
-			(uuid "9ad192a4-8e62-472f-b06f-805a4f7f3db1")
+			(uuid "14004728-3bd2-4f96-8672-13362fb665cb")
 		)
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/2a9a73de-bc9d-49ad-b06b-84204940ff5e"
-					(reference "#PWR036")
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 256.54 41.91 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21a05f59-c119-48fb-9134-baaf4e9147a8")
+		(property "Reference" "C16"
+			(at 260.35 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uf"
+			(at 260.35 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 255.5748 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 256.54 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c07442dd-3f1a-4d55-9e64-2cb734daf1aa")
+		)
+		(pin "2"
+			(uuid "6f956a6c-a20e-4904-b230-52f129a716b5")
+		)
+		(instances
+			(project "PCB_DELTA_Car"
+				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/2a9a73de-bc9d-49ad-b06b-84204940ff5e"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -2756,8 +3071,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 158.75 41.91 0)
+		(lib_id "Diode:ESD9B3.3ST5G")
+		(at 266.7 41.91 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2766,91 +3081,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "47f4c44d-b780-42e2-870e-e07db63ba6e2")
-		(property "Reference" "C15"
-			(at 162.56 40.6399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uf"
-			(at 162.56 43.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 159.7152 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 158.75 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "34f17b2b-7328-4e28-a640-9740f9830967")
-		)
-		(pin "2"
-			(uuid "16390556-d053-4961-961e-6364010434d0")
-		)
-		(instances
-			(project "PCB_DELTA_Car"
-				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/2a9a73de-bc9d-49ad-b06b-84204940ff5e"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 147.32 41.91 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53185fb7-bd2e-458a-8625-4248cc710b80")
-		(property "Reference" "SW3"
-			(at 148.59 40.6399 90)
+		(uuid "5f2ea4df-7212-41a0-a0d9-36655ed6b4c9")
+		(property "Reference" "D12"
+			(at 269.24 40.6399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2860,8 +3093,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SW_SPST"
-			(at 148.59 43.1799 90)
+		(property "Value" "ESD3.3"
+			(at 269.24 43.1799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2871,8 +3104,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
-			(at 147.32 41.91 0)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 266.7 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2882,8 +3115,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 147.32 41.91 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(at 266.7 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2893,87 +3126,8 @@
 				)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 147.32 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ddec2c5b-9f1d-4655-ada5-fa27814d00c3")
-		)
-		(pin "1"
-			(uuid "403d72eb-8ea5-401f-bbdc-e05a8e83c489")
-		)
-		(instances
-			(project "PCB_DELTA_Car"
-				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/2a9a73de-bc9d-49ad-b06b-84204940ff5e"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 147.32 73.66 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "556c1e72-d335-41f5-b3ec-f746e62145e1")
-		(property "Reference" "C14"
-			(at 147.32 67.056 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 147.32 69.596 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 72.6948 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 147.32 73.66 0)
+		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
+			(at 266.7 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2984,93 +3138,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "90997255-576a-4a00-9f4e-53fd269e0431")
+			(uuid "913fb600-c427-4c7a-90ef-29b45b570835")
 		)
 		(pin "1"
-			(uuid "4fc0c55e-5b18-472a-9b71-269b4ac866d5")
+			(uuid "36c5ded1-e17f-4238-affa-7e32b8ea60a1")
 		)
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/2a9a73de-bc9d-49ad-b06b-84204940ff5e"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f03d2ad-544f-47c3-b392-8fd3b289c280")
-		(property "Reference" "#PWR032"
-			(at 130.81 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6a71e390-5fc3-46bf-9486-57162404f6d6")
-		)
-		(instances
-			(project "PCB_DELTA_Car"
-				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/2a9a73de-bc9d-49ad-b06b-84204940ff5e"
-					(reference "#PWR032")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -3155,86 +3231,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 147.32 26.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ccdcad1-4195-4e76-9de1-1cb347c11299")
-		(property "Reference" "#PWR035"
-			(at 147.32 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 147.32 21.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 147.32 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f4392134-690b-4c69-9836-f062106cc67f")
-		)
-		(instances
-			(project "PCB_DELTA_Car"
-				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/2a9a73de-bc9d-49ad-b06b-84204940ff5e"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 154.94 73.66 90)
+		(at 266.7 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3243,9 +3241,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b024cf6e-1f8a-4883-af9a-d92918d30c36")
-		(property "Reference" "#PWR037"
-			(at 161.29 73.66 0)
+		(uuid "b03cc36f-772e-491e-8e74-c815e4291598")
+		(property "Reference" "#PWR036"
+			(at 266.7 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3256,18 +3254,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 73.6599 90)
+			(at 269.24 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 73.66 0)
+			(at 266.7 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3278,7 +3276,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 73.66 0)
+			(at 266.7 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3289,7 +3287,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 73.66 0)
+			(at 266.7 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3300,12 +3298,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a456adc5-4ec6-4200-874e-058daa71fb10")
+			(uuid "afe95af6-fa85-4039-9a74-1dcdf97fbd96")
 		)
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/2a9a73de-bc9d-49ad-b06b-84204940ff5e"
-					(reference "#PWR037")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -3511,8 +3509,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 147.32 31.75 0)
+		(lib_id "power:GND")
+		(at 256.54 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3521,9 +3519,20 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f428d82b-ccd8-4792-926d-f60ec7a105ca")
-		(property "Reference" "R5"
-			(at 149.86 30.4799 0)
+		(uuid "bf690d91-9266-4b2a-90f9-785c306c6f96")
+		(property "Reference" "#PWR068"
+			(at 256.54 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.08 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3533,19 +3542,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1K"
-			(at 149.86 33.0199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 145.542 31.75 90)
+		(property "Footprint" ""
+			(at 256.54 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3556,7 +3554,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 31.75 0)
+			(at 256.54 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3566,8 +3564,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 147.32 31.75 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 256.54 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3578,15 +3576,490 @@
 			)
 		)
 		(pin "1"
-			(uuid "10e7c349-3c07-4ea8-8f3c-1c3013cbbae2")
-		)
-		(pin "2"
-			(uuid "196665fa-9cd5-420e-94ac-c14e44d630f5")
+			(uuid "e108f184-2c29-4473-94cb-343efaec5071")
 		)
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/2a9a73de-bc9d-49ad-b06b-84204940ff5e"
-					(reference "R5")
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 205.74 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c03bfcc9-df97-495a-bb12-ef1ccec5c878")
+		(property "Reference" "SW4"
+			(at 205.74 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BOOT"
+			(at 205.74 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
+			(at 205.74 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 205.74 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4c4b5f15-a565-4a55-8896-844f4866e5f9")
+		)
+		(pin "1"
+			(uuid "ba19fcb9-9b0f-4f77-b70a-56101c96b25b")
+		)
+		(instances
+			(project "PCB_DELTA_Car"
+				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/2a9a73de-bc9d-49ad-b06b-84204940ff5e"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c622e463-d970-436a-b990-0a3607a0a0f0")
+		(property "Reference" "#PWR032"
+			(at 196.85 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4c4695f5-9d8c-47a7-a534-61b6ab5dcd96")
+		)
+		(instances
+			(project "PCB_DELTA_Car"
+				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/2a9a73de-bc9d-49ad-b06b-84204940ff5e"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 247.65 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da7c07fc-6de7-4f16-92e9-1c48e3f842e6")
+		(property "Reference" "SW8"
+			(at 247.65 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RESET"
+			(at 247.65 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
+			(at 247.65 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 247.65 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1170dbad-bae6-4396-87db-80bef893a302")
+		)
+		(pin "1"
+			(uuid "d20909d1-d937-4956-9570-2e32a323bdbe")
+		)
+		(instances
+			(project "PCB_DELTA_Car"
+				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/2a9a73de-bc9d-49ad-b06b-84204940ff5e"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:ESD9B3.3ST5G")
+		(at 217.17 35.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8ab2ba5-5d95-48e6-9d61-d2ac9ba9eab4")
+		(property "Reference" "D?"
+			(at 219.71 34.2899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD3.3"
+			(at 219.71 36.8299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 217.17 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(at 217.17 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
+			(at 217.17 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b795deb6-6e31-4468-a545-55bc63810bb9")
+		)
+		(pin "1"
+			(uuid "5ddd1e9d-12fc-4464-a1fc-e00982917d4d")
+		)
+		(instances
+			(project "PCB_DELTA_Car"
+				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/2a9a73de-bc9d-49ad-b06b-84204940ff5e"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 217.17 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee81ffb5-0ca9-4077-bde2-00308d655b4c")
+		(property "Reference" "#PWR035"
+			(at 217.17 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "891ed4b7-a147-4a66-bb6e-a79b5f316d4b")
+		)
+		(instances
+			(project "PCB_DELTA_Car"
+				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/2a9a73de-bc9d-49ad-b06b-84204940ff5e"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 256.54 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4618651-6ec5-49f1-ae56-2460043a5625")
+		(property "Reference" "#PWR067"
+			(at 256.54 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 256.54 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 256.54 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab8cf48a-e1e8-4947-80db-5517fb1d3b38")
+		)
+		(instances
+			(project "PCB_DELTA_Car"
+				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/2a9a73de-bc9d-49ad-b06b-84204940ff5e"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
