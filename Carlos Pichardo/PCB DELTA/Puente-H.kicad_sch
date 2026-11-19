@@ -1212,7 +1212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d69cd93-e02e-4370-aefb-abeb537f8341")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 154.94 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -1272,7 +1272,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/6d8e917c-6fa5-49e0-9bbd-ea3e27454277"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -1290,7 +1290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e633dc3-edd4-409f-95a1-e201c42b2ab5")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 140.97 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -1350,7 +1350,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/6d8e917c-6fa5-49e0-9bbd-ea3e27454277"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -1450,7 +1450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2878769e-e382-43ab-af86-6a6ff83caded")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 140.97 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -1510,7 +1510,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/6d8e917c-6fa5-49e0-9bbd-ea3e27454277"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -1528,7 +1528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bd51b31-b504-4921-96bc-78b0e8284c3e")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 160.02 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -1588,7 +1588,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/6d8e917c-6fa5-49e0-9bbd-ea3e27454277"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -1628,7 +1628,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 160.02 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -1688,7 +1688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58786446-1398-4bd0-ae1c-73712e0978ae")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 157.48 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1752,7 +1752,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/6d8e917c-6fa5-49e0-9bbd-ea3e27454277"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)

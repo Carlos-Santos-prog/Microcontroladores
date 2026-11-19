@@ -5,30 +5,6 @@
 	(uuid "b467d2d6-eb1b-4831-a96e-cdf49a56527d")
 	(paper "A4")
 	(lib_symbols)
-	(rectangle
-		(start 187.325 51.435)
-		(end 259.08 78.74)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "0dbfd34c-e041-4006-ad09-c31e8941f93f")
-	)
-	(text "Eto e tentativo, \nhay que analizarlo bien"
-		(exclude_from_sim no)
-		(at 235.458 65.532 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-		)
-		(uuid "869c8688-1d56-449c-81f1-49ff41ba56c5")
-	)
 	(wire
 		(pts
 			(xy 125.73 46.99) (xy 133.35 46.99)
@@ -58,6 +34,16 @@
 			(type default)
 		)
 		(uuid "18f26a9c-4fec-4e66-80c5-7ce4a76327f1")
+	)
+	(wire
+		(pts
+			(xy 181.61 59.69) (xy 189.23 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f02e348-1fda-4dce-885c-217d24d64143")
 	)
 	(wire
 		(pts
@@ -178,6 +164,16 @@
 			(type default)
 		)
 		(uuid "a941b9b4-bda5-475f-9ee9-1771896b8d3e")
+	)
+	(wire
+		(pts
+			(xy 181.61 73.66) (xy 189.23 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa862b98-d312-489d-af46-34e7d5dc0f1c")
 	)
 	(wire
 		(pts
@@ -548,7 +544,7 @@
 			)
 		)
 		(pin "GPIO37" input
-			(at 181.61 59.055 0)
+			(at 181.61 59.69 0)
 			(uuid "cf71fb20-eb0d-4da8-8bd8-80fe16e57604")
 			(effects
 				(font
@@ -558,7 +554,7 @@
 			)
 		)
 		(pin "GPIO38" input
-			(at 181.61 73.025 0)
+			(at 181.61 73.66 0)
 			(uuid "56ef7724-6064-4d89-a596-fd2c2e00fa77")
 			(effects
 				(font
@@ -1059,7 +1055,7 @@
 			)
 		)
 		(pin "Encoder_OUT" output
-			(at 189.23 73.025 180)
+			(at 189.23 73.66 180)
 			(uuid "c6815411-a697-4a75-8f8b-5ed6ba6af6ec")
 			(effects
 				(font
@@ -1078,7 +1074,7 @@
 	)
 	(sheet
 		(at 189.23 56.515)
-		(size 15.875 5.08)
+		(size 15.875 5.715)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1103,7 +1099,7 @@
 			)
 		)
 		(property "Sheetfile" "Encoder.kicad_sch"
-			(at 189.23 62.611 0)
+			(at 189.23 62.992 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1114,7 +1110,7 @@
 			)
 		)
 		(pin "Encoder_OUT" output
-			(at 189.23 59.055 180)
+			(at 189.23 59.69 180)
 			(uuid "e85eec81-b514-4371-bbb7-4bd705717210")
 			(effects
 				(font

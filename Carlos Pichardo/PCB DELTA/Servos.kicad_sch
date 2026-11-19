@@ -880,7 +880,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 			(at 157.48 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -943,7 +943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b68c4ff1-211a-4aff-874a-0aadcfb5623b")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 142.24 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -1004,7 +1004,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/a1548ecd-9295-40e9-b36f-0fc31f8a6c2c"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -1043,7 +1043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x4.5"
 			(at 142.5448 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -1103,7 +1103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f69d1041-70ae-4231-b7ea-e19460e8576d")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 134.62 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -1164,7 +1164,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/a1548ecd-9295-40e9-b36f-0fc31f8a6c2c"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)

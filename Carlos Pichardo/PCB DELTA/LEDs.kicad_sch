@@ -974,7 +974,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 104.14) (xy 170.18 104.14)
+			(xy 167.64 101.6) (xy 170.18 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1014,6 +1014,26 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 91.44) (xy 168.91 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69709c5c-b6fe-4aa2-9918-bd32810f947e")
+	)
+	(wire
+		(pts
+			(xy 151.13 99.06) (xy 170.18 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7193cee3-f46d-4711-b401-f216f084e900")
+	)
+	(wire
+		(pts
 			(xy 138.43 88.9) (xy 138.43 85.09)
 		)
 		(stroke
@@ -1031,16 +1051,6 @@
 			(type default)
 		)
 		(uuid "8c625827-e214-4097-a90b-1bc400792edc")
-	)
-	(wire
-		(pts
-			(xy 160.02 101.6) (xy 170.18 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adcd0397-9eca-4c6c-9016-662f02b4f33d")
 	)
 	(wire
 		(pts
@@ -1064,13 +1074,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 99.06) (xy 170.18 99.06)
+			(xy 168.91 96.52) (xy 170.18 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "daa82e86-78e4-4030-a107-f6363df749a9")
+		(uuid "e8154034-3f10-48d6-90c7-cb7c84733c66")
 	)
 	(wire
 		(pts
@@ -1081,6 +1091,16 @@
 			(type default)
 		)
 		(uuid "f482173b-d289-4323-8255-71a6722fa4ac")
+	)
+	(wire
+		(pts
+			(xy 168.91 91.44) (xy 167.64 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f58a71b9-6467-4a47-946c-8cf6886eb230")
 	)
 	(hierarchical_label "Din_Leds"
 		(shape input)
@@ -1105,7 +1125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10428ec9-8eb7-4a2c-997e-2eb640ba1cf6")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR052"
 			(at 111.76 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1165,7 +1185,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/ed94ce5d-a465-464c-bdad-6ff5a52c4219"
-					(reference "#PWR042")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -1183,7 +1203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "345c9ce0-1f64-4c29-beb4-219afc3b8c73")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR053"
 			(at 133.35 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1243,7 +1263,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/ed94ce5d-a465-464c-bdad-6ff5a52c4219"
-					(reference "#PWR043")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -1281,7 +1301,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 121.92 84.7852 0)
 			(hide yes)
 			(show_name no)
@@ -1331,7 +1351,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 175.26 101.6 180)
+		(at 175.26 99.06 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1342,7 +1362,7 @@
 		(fields_autoplaced yes)
 		(uuid "8104f70a-8742-42cb-9543-212f59a4728f")
 		(property "Reference" "J10"
-			(at 176.53 100.3299 0)
+			(at 176.53 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1353,7 +1373,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 176.53 102.8699 0)
+			(at 176.53 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1363,8 +1383,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 175.26 101.6 0)
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+			(at 175.26 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1375,7 +1395,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 101.6 0)
+			(at 175.26 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1386,7 +1406,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 175.26 101.6 0)
+			(at 175.26 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1426,7 +1446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6cbd256-c155-4181-bad4-91bf89fa156b")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR054"
 			(at 133.35 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -1486,7 +1506,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/ed94ce5d-a465-464c-bdad-6ff5a52c4219"
-					(reference "#PWR044")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -1504,7 +1524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c55d64b9-f83a-4193-be09-33e76e69737b")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR055"
 			(at 138.43 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -1564,7 +1584,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/ed94ce5d-a465-464c-bdad-6ff5a52c4219"
-					(reference "#PWR045")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -1582,7 +1602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9b3a296-16f8-407e-9f04-76dfc4cf1983")
-		(property "Reference" "U7"
+		(property "Reference" "U10"
 			(at 153.67 92.6398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1653,7 +1673,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/ed94ce5d-a465-464c-bdad-6ff5a52c4219"
-					(reference "U7")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -1670,7 +1690,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "daae604f-3e90-4cfe-a178-55613fadde97")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 114.3 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1690,7 +1710,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 114.3 100.838 90)
 			(hide yes)
 			(show_name no)
@@ -1732,7 +1752,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/ed94ce5d-a465-464c-bdad-6ff5a52c4219"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -1740,7 +1760,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 167.64 104.14 90)
+		(at 167.64 101.6 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1750,8 +1770,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddf97757-ad2e-4431-9ecd-945545b9699d")
-		(property "Reference" "#PWR047"
-			(at 171.45 104.14 0)
+		(property "Reference" "#PWR057"
+			(at 171.45 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1762,7 +1782,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 163.83 104.1399 90)
+			(at 163.83 101.5999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1773,7 +1793,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 104.14 0)
+			(at 167.64 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1784,7 +1804,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 104.14 0)
+			(at 167.64 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1795,7 +1815,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 167.64 104.14 0)
+			(at 167.64 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1811,7 +1831,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/ed94ce5d-a465-464c-bdad-6ff5a52c4219"
-					(reference "#PWR047")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -1819,7 +1839,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.02 101.6 270)
+		(at 167.64 91.44 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1829,8 +1849,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e461e71f-73b4-430c-ae3b-b03682280e0a")
-		(property "Reference" "#PWR046"
-			(at 153.67 101.6 0)
+		(property "Reference" "#PWR056"
+			(at 161.29 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1841,7 +1861,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 101.5999 90)
+			(at 163.83 91.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1852,7 +1872,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 101.6 0)
+			(at 167.64 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1863,7 +1883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 101.6 0)
+			(at 167.64 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1874,7 +1894,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 101.6 0)
+			(at 167.64 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1890,7 +1910,7 @@
 		(instances
 			(project "PCB_DELTA_Car"
 				(path "/b467d2d6-eb1b-4831-a96e-cdf49a56527d/ed94ce5d-a465-464c-bdad-6ff5a52c4219"
-					(reference "#PWR046")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
