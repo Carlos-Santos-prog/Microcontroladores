@@ -1130,6 +1130,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 95.25) (xy 130.81 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7f63ba3-6d8e-4fc6-ad2a-598b86a17d31")
+	)
+	(wire
+		(pts
 			(xy 147.32 73.66) (xy 147.32 71.12)
 		)
 		(stroke
@@ -1150,6 +1160,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 92.71) (xy 130.81 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1681637-646e-4070-a24c-857d2754e382")
+	)
+	(wire
+		(pts
 			(xy 160.02 76.2) (xy 160.02 83.82)
 		)
 		(stroke
@@ -1158,29 +1178,9 @@
 		)
 		(uuid "d7dcd803-57c0-4a4e-8fe3-3c099ef89ce5")
 	)
-	(wire
-		(pts
-			(xy 127 95.25) (xy 130.81 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcce20b7-4499-4694-8d33-abe6af070dd9")
-	)
-	(wire
-		(pts
-			(xy 127 92.71) (xy 130.81 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e991981b-e280-4ab8-b6a3-76270605dc84")
-	)
 	(hierarchical_label "In 1"
 		(shape input)
-		(at 127 92.71 180)
+		(at 127 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1191,7 +1191,7 @@
 	)
 	(hierarchical_label "In 2"
 		(shape input)
-		(at 127 95.25 180)
+		(at 127 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
